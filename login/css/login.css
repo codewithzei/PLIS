@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Krub", sans-serif;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}   
+
+.login-container {
+    background-color: white;
+    border-radius: 55px;
+    box-shadow: 
+        0 0 20px rgba(3, 73, 224, 0.15),
+        0 0 40px rgba(3, 73, 224, 0.1),
+        0 0 60px rgba(3, 73, 224, 0.05);
+    width: 90%;
+    height: 80vh;
+    max-width: 1560px;
+    max-height: 820px;
+    display: flex;
+    overflow: hidden;
+}
+
+.login-form {
+    width: 55.86538461538462%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form h1 {
+    text-align: center;
+    margin-bottom: 46px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #034BE7;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #6D6D6D;
+    text-align: left;
+}
+
+.input-container {
+    position: relative;
+}
+
+.user-icon,
+.lock-icon {
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6D6D6D;
+    width: 25px;
+    height: 25px;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6D6D6D;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.form-group input {
+    width: 100%;
+    height: 74px;
+    padding: 15px 15px 15px 60px; 
+    border: 1px solid #ddd;
+    border-radius: 60px;
+    font-size: 24px;
+    font-weight: 500;
+    box-sizing: border-box;
+    border-color: #034BE7;
+    background-color: rgba(217, 217, 217, 0.65);
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #034BE7;
+    box-shadow: 0 0 10px rgba(41, 106, 245, 0.5);
+    transition: box-shadow 0.3s ease;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #666666;
+}
+
+.remember-me input[type="checkbox"] {
+    width: 20px; 
+    height: 20px; 
+    margin: 0; 
+    cursor: pointer;
+}
+
+.forgot-password {
+    color: #0349e0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    margin-top: 10px;
+    width: 100%;
+    height: 74px;
+    padding: 15px;
+    background-color: #296AF5;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #0239b8;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    box-shadow: 
+        0 0 30px rgba(255, 255, 255, 0.363),
+        0 0 50px rgba(255, 255, 255, 0.37),
+        0 0 70px rgba(250, 249, 249, 0.356);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 175px;
+    height: 175px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.welcome-section {
+    width: 44.13461538461538%;
+    background-image: url('../images/background-2.png');
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.welcome-section h1 {
+    font-size: 48px;
+    margin-bottom: 27px;
+    margin-top: 20px;
+}
+
+.welcome-section h2 {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.welcome-section p {
+    font-size: 20px;
+    line-height: 1.6;
+    font-style: italic;
+    margin: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 1560px) {
+    .login-container {
+        height: auto;
+        min-height: 80vh;
+    }
+}
+
+@media (max-width: 1200px) {
+    .login-form h1,
+    .welcome-section h1 {
+        font-size: 40px;
+    }
+    
+    .welcome-section h2 {
+        font-size: 28px;
+    }
+    
+    .form-group input,
+    .login-btn {
+        height: 65px;
+        font-size: 22px;
+    }
+    
+    .login-form,
+    .welcome-section {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .login-container {
+        flex-direction: column;
+        height: auto;
+        max-height: none;
+        margin: 50px 0 50px 0;
+    }
+    
+    .login-form,
+    .welcome-section {
+        width: 100%;
+    }
+    
+    .welcome-section {
+        order: -1;
+        text-align: center;
+        padding: 40px 60px;
+    }
+    
+    .login-form {
+        padding: 40px 60px;
+    }
+    
+    .logo-container {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .login-form h1,
+    .welcome-section h1 {
+        font-size: 32px;
+    }
+    
+    .welcome-section h2 {
+        font-size: 24px;
+    }
+    
+    .form-group label {
+        font-size: 20px;
+    }
+    
+    .form-group input {
+        font-size: 18px;
+        height: 60px;
+        padding-left: 55px;
+    }
+    
+    .login-btn {
+        height: 60px;
+        font-size: 20px;
+    }
+    
+    .user-icon,
+    .lock-icon,
+    .password-toggle {
+        width: 22px;
+        height: 22px;
+    }
+    
+    .remember-me,
+    .forgot-password {
+        font-size: 16px;
+    }
+    
+    .welcome-section p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .login-form,
+    .welcome-section {
+        padding: 30px;
+    }
+    
+    .login-form h1,
+    .welcome-section h1 {
+        font-size: 28px;
+    }
+    
+    .form-group input {
+        height: 55px;
+        font-size: 16px;
+        padding-left: 50px;
+    }
+    
+    .login-btn {
+        height: 55px;
+        font-size: 18px;
+    }
+    
+    .user-icon,
+    .lock-icon,
+    .password-toggle {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .logo-container {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+}
