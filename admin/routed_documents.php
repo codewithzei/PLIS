@@ -233,7 +233,7 @@
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M4.24828 19.0001C3.22028 15.7701 5.27528 8.23209 12.4663 8.23209V6.07909C12.4576 5.8845 12.5045 5.69147 12.6016 5.52258C12.6986 5.3537 12.8418 5.21597 13.0143 5.12552C13.1868 5.03507 13.3815 4.99564 13.5756 5.01186C13.7697 5.02808 13.9552 5.09927 14.1103 5.21709L19.5893 9.52409C19.7177 9.62796 19.8213 9.75923 19.8924 9.90828C19.9636 10.0573 20.0005 10.2204 20.0005 10.3856C20.0005 10.5508 19.9636 10.7138 19.8924 10.8629C19.8213 11.012 19.7177 11.1432 19.5893 11.2471L14.1093 15.5541C13.9541 15.6711 13.7689 15.7417 13.5752 15.7576C13.3815 15.7734 13.1873 15.734 13.0152 15.6438C12.8431 15.5536 12.7001 15.4163 12.6029 15.248C12.5057 15.0797 12.4583 14.8873 12.4663 14.6931V12.5391C5.27528 13.6161 4.24828 19.0001 4.24828 19.0001Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
-                        Route Document
+                        Route File
                         </a>
                     </div>
                 </div>
@@ -385,6 +385,157 @@
                 </div>
             </div>
         </main>
+
+        <div id="routeDocumentModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Route File</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <form id="originalDocumentForm" action="submit_original_document.php" method="POST" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <span class="categorization">Document Information</span>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-areas">
+                                <label for="tracking_number">Tracking Number</label>
+                                <input type="text" class="tracking-number" id="tracking-number" name="tracking-number" required readonly>
+                            </div>
+                            <div class="input-areas">
+                                <label for="date-received">Date Received</label>
+                                <input type="date" class="date-received" id="date-received" name="date-received" required>
+                            </div>
+                            <div class="input-areas">
+                                <label for="time-received">Time Received</label>
+                                <input type="time" class="time-received" id="time-received" name="time-received" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-areas">
+                                <label for="subject-matter">Subject Matter</label>
+                                <input type="text" class="subject-matter" id="subject-matter" name="subject-matter" placeholder="Enter document subject" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <span class="categorization">Document Details</span>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-areas">
+                                <label for="document-type">Document Type</label>
+                                <select class="document-type" id="document-type" name="document-type" onchange="updateRoutingOptions()" required>
+                                    <option value="" disabled selected>Select Document Type</option>
+                                </select>
+                            </div>
+                            <div class="input-areas">
+                                <label for="source-type">Source Type</label>
+                                <select class="source-type" id="source-type" name="source-type" onchange="updateInput()" required>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="blank-areas"></div>
+
+                            <div class="input-areas" id="sp-member-name">
+                                <label for="sp-member-name">SP Member Name</label>
+                                <input type="text" class="sp-member-name" id="sp-member-name" name="sp-member-name" placeholder="Enter SP Member Name" required>
+                            </div>
+
+                            <!-- <div class="input-areas" id="external-offices">
+                                <label for="external-offices">Select External Office</label>
+                                <select class="external-offices" id="external-offices" name="external-offices" required>
+                                    <option value="" disabled selected>Select External Office</option>
+                                </select>
+                            </div>  
+
+                            <div class="input-areas" id="external-hospitals">
+                                <label for="external-hospitals">External Hospital Name</label>
+                                <select class="external-hospitals" id="external-hospitals" name="external-hospitals" required>
+                                    <option value="" disabled selected>Select External Hospital</option>
+                                </select>                         
+                            </div>
+
+                            <div class="input-areas" id="agency-name">
+                                <label for="agency-name">Agency Name</label>
+                                <input type="text" class="agency-name" id="agency-name" name="agency-name" placeholder="Enter Agency Name" required>
+                            </div>
+
+                            <div class="input-areas" id="client-name">
+                                <label for="client-name">Client Name</label>
+                                <input type="text" class="client-name" id="client-name" name="client-name" placeholder="Enter Client Name" required>
+                            </div> -->
+                        </div>
+
+                        <div class="form-group">
+                            <span class="categorization">Location & Routing</span>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-areas">
+                                <label for="pangasinan-municipalities-and-cities">Municipality/City</label>
+                                <select class="pangasinan-municipalities-and-cities" id="pangasinan-municipalities-and-cities" name="pangasinan-municipalities-and-cities" required>
+                                    <option value="" disabled selected>Select Municipality/City</option>
+                                </select>
+                            </div>
+                            <div class="input-areas">
+                                <label for="routing-options">Routing Options</label>
+                                <select class="routing-options" id="routing-options" name="routing-options" onchange="updateCategory()" required>
+                                    <option value="" disabled selected>Select Routing Option</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group" id="category">
+                            <div class="input-areas" id="category-select">
+                                <label for="category-select">Category</label>
+                                <select class="category-select" id="category-select" name="category-select">
+                                    <option value="" disabled selected>Select Category</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="categorization">Additional Information</span>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-areas">
+                                <label for="remarks-or-notes">Remarks/Notes</label>
+                                <textarea class="remarks-or-notes" id="remarks-or-notes" name="remarks-or-notes" placeholder="Enter additional marks or notes"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-areas">
+                                <label for="file-upload">Attachment (Optional)</label>
+                                <div class="drag-drop-area" id="dragDropArea">
+                                    <div class="drag-drop-content">
+                                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M25.0007 10.4168V29.1668M14.584 29.1668H10.4173C9.86478 29.1668 9.33488 29.3863 8.94418 29.777C8.55348 30.1677 8.33398 30.6976 8.33398 31.2502V39.5835C8.33398 40.136 8.55348 40.6659 8.94418 41.0566C9.33488 41.4473 9.86478 41.6668 10.4173 41.6668H39.584C40.1365 41.6668 40.6664 41.4473 41.0571 41.0566C41.4478 40.6659 41.6673 40.136 41.6673 39.5835V31.2502C41.6673 30.6976 41.4478 30.1677 41.0571 29.777C40.6664 29.3863 40.1365 29.1668 39.584 29.1668H35.4173M16.6673 18.7502L25.0007 8.3335L33.334 18.7502M35.4173 35.4168H35.4382" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        <p>Drag & drop files here or <span class="browse-link">browse</span></p>
+                                        <p>PDF, DOC, DOCX, JPG, PNG</p>
+                                        <input type="file" id="file-upload" name="file-upload" multiple style="display: none;">
+                                        <div class="file-preview" id="filePreview"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group-buttons">
+                            <div class="buttons">
+                                <button type="button" class="cancel-button" onclick="closeModal()">Cancel</button>
+                                <button type="button" class="print-receipt-button" onclick="printReceipt()">Print Receipt</button>
+                                <button type="submit" class="save-as-drafts-button" name="action" value="draft">Save as Drafts</button>
+                                <button type="submit" class="save-and-route-button" name="action" value="save-and-route" id="mainActionButton">Save & Route</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>

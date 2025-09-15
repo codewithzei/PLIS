@@ -112,7 +112,7 @@ body {
 }
 
 .nav-item:not(:last-child) {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 ul {
@@ -156,21 +156,21 @@ ul {
 }
 
 .nav-item svg {
-  color: var(--text-default);
-  margin-right: 12px;
-  width: 24px;
-  height: 24px;
-  flex-shrink: 0;
-  transition: color 0.4s ease;
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    transition: color 0.4s ease;
+    color: var(--text-default);
 }
 
 .nav-item a:hover svg {
-  color: var(--text-primary);
+    color: var(--text-primary);
 }
 
 /* For active state */
 .nav-label.active {
-  color: var(--text-primary);
+    color: var(--text-primary);
 }
 
 .nav-item.active a {

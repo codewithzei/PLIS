@@ -408,3 +408,364 @@ main {
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 2, 2, 0.75);
+    overflow: auto;
+}
+
+#routeDocumentModal .modal-content {
+    background-color: #fff;
+    position: fixed;
+    top: 63px;
+    left: 551px;
+    width: 100%;
+    max-width: 800px;
+    height: 825px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: modalSlideIn 0.3s ease-out;
+}
+
+@keyframes modalSlideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#routeDocumentModal .modal-header {
+    padding: 20px 30px 19px 30px;
+    border-bottom: 1px solid #B0B0B0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+}
+
+#routeDocumentModal .modal-header h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-default);
+}
+
+#routeDocumentModal .close-modal {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--text-default);
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+#routeDocumentModal .close-modal:hover {
+    color: #686b70;
+    transform: scale(1.2);
+}
+
+#routeDocumentModal .modal-body {
+    padding: 30px;
+    max-height: 77vh;
+    overflow-y: auto;
+}
+
+.modal .form-group {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.modal .form-group:nth-child(1),
+.modal .form-group:nth-child(3),
+.modal .form-group:nth-child(4),
+.modal .form-group:nth-child(6),
+.modal .form-group:nth-child(7),
+.modal .form-group:nth-child(9),
+.modal .form-group:nth-child(10),
+.modal .form-group:nth-child(12) {
+    margin-bottom: 40px;
+}
+
+.modal .form-group:nth-child(2),
+.modal .form-group:nth-child(5),
+.modal .form-group:nth-child(8),
+.modal .form-group:nth-child(11) {
+    margin-bottom: 20px;
+}
+
+.modal .categorization {
+    padding: 0 0 9px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-default);
+    border-bottom: 1px solid #B0B0B0;
+}
+
+.modal .input-areas {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal .blank-areas {
+    flex: 1;
+}
+
+.modal label {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--text-default);
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.modal .tracking-number,
+.modal .date-received,
+.modal .time-received,
+.modal .subject-matter,
+.modal .sp-member-name,
+.modal .agency-name,
+.modal .client-name {
+    width: 100%;
+    height: 40px;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #7B7F88;
+    border-radius: 10px;
+    font-size: 15.5px;
+    font-weight: 400;
+    color: #7B7F88;
+    background-color: #fff;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.modal .remarks-or-notes {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #7B7F88;
+    border-radius: 10px;
+    font-size: 15.5px;
+    font-weight: 400;
+    color: #7B7F88;
+    background-color: #fff;
+    resize: vertical;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.modal select.document-type,
+.modal select.source-type,
+.modal select.external-offices,
+.modal select.external-hospitals,
+.modal select.pangasinan-municipalities-and-cities,
+.modal select.routing-options,
+.modal select.category-select {
+    width: 100%;
+    height: 40px;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #7B7F88;
+    border-radius: 10px;
+    font-size: 15.5px;
+    font-weight: 400;
+    color: #7B7F88;
+    background-color: #fff;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.modal .document-type:invalid, 
+.modal .external-offices:invalid,
+.modal .external-hospitals:invalid,
+.modal .pangasinan-municipalities-and-cities:invalid,
+.modal .routing-options:invalid,
+.modal .category-select:invalid {
+    color: #7B7F88;
+}
+
+.modal .document-type option,
+.modal .source-type option,
+.modal .external-offices option,
+.modal .external-hospitals option,
+.modal .pangasinan-municipalities-and-cities option,
+.modal .routing-options option,
+.modal .category-select option {
+    color: black;
+}
+
+.modal .document-type option[disabled][selected],
+.modal .external-offices option[disabled][selected],
+.modal .external-hospitals option[disabled][selected],
+.modal .pangasinan-municipalities-and-cities option[disabled][selected],
+.modal .routing-options option[disabled][selected],
+.modal .category-select option[disabled][selected] {
+    display: none;
+}
+
+.modal option:disabled {
+    color: #7B7F88;
+}
+
+.modal .drag-drop-area {
+    width: 100%;
+    padding: 30px;
+    border: 1.5px dashed #7B7F88;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+.modal .drag-drop-area:hover {
+    border-color: #0415CC;
+    background-color: #f0f5ff;
+}
+
+.modal .drag-drop-area.active {
+    border-color: #0415CC;
+    background-color: #e6f0ff;
+}
+
+.modal .drag-drop-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.modal .upload-icon {
+    width: 50px;
+    height: 50px;
+    color: #7B7F88;
+}
+
+.modal .drag-drop-area p {
+    color: #7B7F88;
+    font-size: 14px;
+    margin: 0;
+}
+
+.modal .drag-drop-area p {
+    font-weight: 500;
+}
+
+.modal .browse-link {
+    color: #0033A1;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 520;
+}
+
+.modal .file-preview {
+    width: 100%;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.modal .file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.modal .file-name {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 10px;
+}
+
+.modal .file-size {
+    color: #6B7280;
+    margin-right: 10px;
+}
+
+.modal .remove-file {
+    color: #EF4444;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.modal .form-group-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.modal .buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.modal .cancel-button,
+.modal .print-receipt-button,
+.modal .save-as-drafts-button,
+.modal .save-and-route-button {
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.modal .cancel-button {
+    background-color: #fff;
+    color: #000000;
+    border: 1px solid #A0A3AA;
+}
+
+.modal .print-receipt-button {
+    background-color: #fff;
+    color: #044EF1;
+    border: 1px solid #044EF1;
+}
+
+.modal .save-as-drafts-button {
+    background-color: #fff;
+    color: #044EF1;
+    border: 1px solid #044EF1;
+}
+
+.modal .save-and-route-button {
+    background-color: #0415CC;
+    color: #fff;
+    border: none;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .modal .form-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .modal .input-areas,
+    .modal .blank-areas {
+        width: 100%;
+    }
+
+    .modal .buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .modal .buttons button {
+        width: 100%;
+    }
+}
