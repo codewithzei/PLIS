@@ -1,4 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@font-face {
+            font-family: 'Krub';
+            src: url('font/Krub-Regular.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+        }
+
+@font-face {
+            font-family: 'Krub';
+            src: url('font/Krub-Medium.ttf') format('truetype');
+            font-weight: 500;
+            font-style: normal;
+        }
+
+@font-face {
+            font-family: 'Krub';
+            src: url('font/Krub-SemiBold.ttf') format('truetype');
+            font-weight: 600;
+            font-style: normal;
+        }
+
+@font-face {
+            font-family: 'Krub';
+            src: url('font/Krub-Bold.ttf') format('truetype');
+            font-weight: 700;
+            font-style: normal;
+        }
 
 * {
     box-sizing: border-box;
@@ -11,7 +37,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family: "Krub", sans-serif;
+    font-family: 'Krub', sans-serif;
 }
 
 .background {
@@ -104,7 +130,7 @@ body {
     font-weight: 500;
     box-sizing: border-box;
     border-color: #034BE7;
-    background-color: rgba(217, 217, 217, 0.65);
+    background-color: rgba(217, 217, 217, 0.1);
 }
 
 .form-group input:focus {
