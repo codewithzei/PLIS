@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DASHBOARD</title>
     <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/routed_documents.css">
+    <link rel="stylesheet" href="css/communications.css">
     <link rel="icon" href="images/logo.png" type="image/png">
 </head>
 <body>
@@ -49,7 +49,7 @@
                                 Drafts
                             </a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a href="routed_documents.php">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M19 10V4C19 3.73478 18.8946 3.48043 18.7071 3.29289C18.5196 3.10536 18.2652 3 18 3H9.914C9.6488 3.00006 9.39449 3.10545 9.207 3.293L5.293 7.207C5.10545 7.39449 5.00006 7.64881 5 7.914V20C5 20.2652 5.10536 20.5196 5.29289 20.7071C5.48043 20.8946 5.73478 21 6 21H18C18.2652 21 18.5196 20.8946 18.7071 20.7071C18.8946 20.5196 19 20.2652 19 20V18M10 3V7C10 7.26522 9.89464 7.51957 9.70711 7.70711C9.51957 7.89464 9.26522 8 9 8H5M10 14H19M19 14L17 12M19 14L17 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -57,7 +57,7 @@
                                 Routed Documents
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a href="communications.php">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M7 9H12M15 9H17M7 12H9M12 12H17M5 5H19C19.2652 5 19.5196 5.10536 19.7071 5.29289C19.8946 5.48043 20 5.73478 20 6V15C20 15.2652 19.8946 15.5196 19.7071 15.7071C19.5196 15.8946 19.2652 16 19 16H12.384C12.1366 15.9998 11.8978 16.0914 11.714 16.257L8.834 18.849C8.76212 18.9135 8.67309 18.9558 8.57767 18.9708C8.48226 18.9859 8.38453 18.9729 8.29632 18.9336C8.20811 18.8942 8.13318 18.8302 8.08059 18.7491C8.02801 18.6681 8.00002 18.5736 8 18.477V17C8 16.7348 7.89464 16.4804 7.70711 16.2929C7.51957 16.1054 7.26522 16 7 16H5C4.73478 16 4.48043 15.8946 4.29289 15.7071C4.10536 15.5196 4 15.2652 4 15V6C4 5.73478 4.10536 5.48043 4.29289 5.29289C4.48043 5.10536 4.73478 5 5 5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -211,39 +211,11 @@
             </div>
         </header>
         <main class="main-content">
-            <div class="subheader">
-                <div class="document-navs left">
-                    <div class="document-navs">
-                        <ul>
-                            <li>
-                                <a href="#" class="document-nav on-going active">On going</a>
-                            </li>
-                            <li>
-                                <a href="#" class="document-nav completed">Completed</a>
-                            </li>
-                            <li>
-                                <a href="#" class="document-nav withdrawn">Withdrawn</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="button right">
-                    <div class="route-button-container">
-                        <a href="#">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.24828 19.0001C3.22028 15.7701 5.27528 8.23209 12.4663 8.23209V6.07909C12.4576 5.8845 12.5045 5.69147 12.6016 5.52258C12.6986 5.3537 12.8418 5.21597 13.0143 5.12552C13.1868 5.03507 13.3815 4.99564 13.5756 5.01186C13.7697 5.02808 13.9552 5.09927 14.1103 5.21709L19.5893 9.52409C19.7177 9.62796 19.8213 9.75923 19.8924 9.90828C19.9636 10.0573 20.0005 10.2204 20.0005 10.3856C20.0005 10.5508 19.9636 10.7138 19.8924 10.8629C19.8213 11.012 19.7177 11.1432 19.5893 11.2471L14.1093 15.5541C13.9541 15.6711 13.7689 15.7417 13.5752 15.7576C13.3815 15.7734 13.1873 15.734 13.0152 15.6438C12.8431 15.5536 12.7001 15.4163 12.6029 15.248C12.5057 15.0797 12.4583 14.8873 12.4663 14.6931V12.5391C5.27528 13.6161 4.24828 19.0001 4.24828 19.0001Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        Route File
-                        </a>
-                    </div>
-                </div>
-            </div>
-
             <div class="document-updates">
                 <div class="title-and-search-container">
                     <div class="title-and-search-container title">
-                        <h2>Routed Documents</h2>
-                        <p>Track and manage documents in the routing process</p>
+                        <h2>Communications</h2>
+                        <p>Manage and organize communication documents by category</p>
                     </div>
                     <div class="title-and-search-container search-and-sort">
                         <div class="search">
@@ -268,10 +240,11 @@
                         <div class="table-header">
                             <div class="header-item" role="columnheader">#</div>
                             <div class="header-item" role="columnheader">Subject Matter</div>
-                            <div class="header-item" role="columnheader">Document Type</div>
-                            <div class="header-item" role="columnheader">Status</div>
-                            <div class="header-item" role="columnheader">Division</div>
-                            <div class="header-item" role="columnheader">Action</div>
+                            <div class="header-item" role="columnheader">Source</div>
+                            <div class="header-item" role="columnheader">Municipality/City</div>
+                            <div class="header-item" role="columnheader">Date</div>
+                            <div class="header-item" role="columnheader">Category</div>
+                            <div class="header-item" role="columnheader">Actions</div>
                         </div> 
                     </div> 
                     <div class="table-body-scroll">
@@ -280,70 +253,100 @@
                                 <div class="table-row" role="row">
                                     <div class="table-cell" role="cell">2025-00001</div>
                                     <div class="table-cell" role="cell">An Ordinance Regulating Public Health and Safety Standards in Municipal Facilities</div>
-                                    <div class="table-cell" role="cell">Provincial Ordinance</div>
-                                    <div class="table-cell" role="cell"><span class="status-pending">Pending</span></div>
-                                    <div class="table-cell" role="cell">SP Secretary</div>
+                                    <div class="table-cell" role="cell">Provincial Governor's Office</div>
+                                    <div class="table-cell" role="cell">Bayambang</div>
+                                    <div class="table-cell" role="cell">09-08-2025</div>
+                                    <div class="table-cell" role="cell">Posting</div>
                                     <div class="table-cell" role="cell">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M21 12C21 13.2 16.97 18 12 18C7.03 18 3 13.2 3 12C3 10.8 7.03 6 12 6C16.97 6 21 10.8 21 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                            <path d="M15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                        </svg>
+                                        <div class="action-icons">
+                                            <svg class="view-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M21 12C21 13.2 16.97 18 12 18C7.03 18 3 13.2 3 12C3 10.8 7.03 6 12 6C16.97 6 21 10.8 21 12Z" stroke="currentColor" stroke-width="1.5"/>
+                                                <path d="M15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12Z" stroke="currentColor" stroke-width="1.5"/>
+                                            </svg>
+                                            <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </div>
                                     </div>
                                 </div>
                         
                                 <div class="table-row" role="row">
                                     <div class="table-cell" role="cell">2025-00002</div>
                                     <div class="table-cell" role="cell">Ordinance on the Maintenance of Public Health and Safety in Municipal Premises</div>
-                                    <div class="table-cell" role="cell">Provincial Appropriation Ordinance</div>
-                                    <div class="table-cell" role="cell"><span class="status-approved">Approved</span></div>
-                                    <div class="table-cell" role="cell">Plenary</div>
+                                    <div class="table-cell" role="cell">Provincial Population Cooperative and Livelihood Development Office</div>
+                                    <div class="table-cell" role="cell">Alaminos City</div>
+                                    <div class="table-cell" role="cell">09-08-2025</div>
+                                    <div class="table-cell" role="cell">Personnel Services</div>
                                     <div class="table-cell" role="cell">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M21 12C21 13.2 16.97 18 12 18C7.03 18 3 13.2 3 12C3 10.8 7.03 6 12 6C16.97 6 21 10.8 21 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                            <path d="M15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                        </svg>
+                                        <div class="action-icons">
+                                            <svg class="view-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M21 12C21 13.2 16.97 18 12 18C7.03 18 3 13.2 3 12C3 10.8 7.03 6 12 6C16.97 6 21 10.8 21 12Z" stroke="currentColor" stroke-width="1.5"/>
+                                                <path d="M15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12Z" stroke="currentColor" stroke-width="1.5"/>
+                                            </svg>
+                                            <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="table-row" role="row">
                                     <div class="table-cell" role="cell">2025-00003</div>
                                     <div class="table-cell" role="cell">An Ordinance Ensuring Health and Safety Compliance in Municipal Buildings and Facilities</div>
-                                    <div class="table-cell" role="cell">Provincial Ordinance</div>
-                                    <div class="table-cell" role="cell"><span class="status-referred">Referred</span></div>
-                                    <div class="table-cell" role="cell">Committee</div>
+                                    <div class="table-cell" role="cell">An Ordinance Regulating Public Health and Safety Standards in Municipal Facilities</div>
+                                    <div class="table-cell" role="cell">Bayambang</div>
+                                    <div class="table-cell" role="cell">09-08-2025</div>
+                                    <div class="table-cell" role="cell">Personnel Services</div>
                                     <div class="table-cell" role="cell">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M21 12C21 13.2 16.97 18 12 18C7.03 18 3 13.2 3 12C3 10.8 7.03 6 12 6C16.97 6 21 10.8 21 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                            <path d="M15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                        </svg>
+                                        <div class="action-icons">
+                                            <svg class="view-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M21 12C21 13.2 16.97 18 12 18C7.03 18 3 13.2 3 12C3 10.8 7.03 6 12 6C16.97 6 21 10.8 21 12Z" stroke="currentColor" stroke-width="1.5"/>
+                                                <path d="M15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12Z" stroke="currentColor" stroke-width="1.5"/>
+                                            </svg>
+                                            <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="table-row" role="row">
                                     <div class="table-cell" role="cell">2025-00004</div>
                                     <div class="table-cell" role="cell">Ordinance Prescribing Sanitation and Safety Measures for All Municipal Establishments</div>
-                                    <div class="table-cell" role="cell">Provincial Ordinance</div>
-                                    <div class="table-cell" role="cell"><span class="status-filed">Filed</span></div>
-                                    <div class="table-cell" role="cell">Plenary</div>
+                                    <div class="table-cell" role="cell">Provincial Governor's Office</div>
+                                    <div class="table-cell" role="cell">Bayambang</div>
+                                    <div class="table-cell" role="cell">09-08-2025</div>
+                                    <div class="table-cell" role="cell">Personnel Services</div>
                                     <div class="table-cell" role="cell">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M21 12C21 13.2 16.97 18 12 18C7.03 18 3 13.2 3 12C3 10.8 7.03 6 12 6C16.97 6 21 10.8 21 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                            <path d="M15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                        </svg>
+                                        <div class="action-icons">
+                                            <svg class="view-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M21 12C21 13.2 16.97 18 12 18C7.03 18 3 13.2 3 12C3 10.8 7.03 6 12 6C16.97 6 21 10.8 21 12Z" stroke="currentColor" stroke-width="1.5"/>
+                                                <path d="M15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12Z" stroke="currentColor" stroke-width="1.5"/>
+                                            </svg>
+                                            <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="table-row" role="row">
                                     <div class="table-cell" role="cell">2025-00005</div>
                                     <div class="table-cell" role="cell">An Ordinance Prescribing Traffic and Parking Rules Within the Municipality</div>
-                                    <div class="table-cell" role="cell">Provincial Ordinance</div>
-                                    <div class="table-cell" role="cell"><span class="status-on-hold">On Hold</span></div>
-                                    <div class="table-cell" role="cell">Plenary</div>
+                                    <div class="table-cell" role="cell">Provincial Governor's Office</div>
+                                    <div class="table-cell" role="cell">Bayambang</div>
+                                    <div class="table-cell" role="cell">09-08-2025</div>
+                                    <div class="table-cell" role="cell">Personnel Services</div>
                                     <div class="table-cell" role="cell">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M21 12C21 13.2 16.97 18 12 18C7.03 18 3 13.2 3 12C3 10.8 7.03 6 12 6C16.97 6 21 10.8 21 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                            <path d="M15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                        </svg>
+                                        <div class="action-icons">
+                                            <svg class="view-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M21 12C21 13.2 16.97 18 12 18C7.03 18 3 13.2 3 12C3 10.8 7.03 6 12 6C16.97 6 21 10.8 21 12Z" stroke="currentColor" stroke-width="1.5"/>
+                                                <path d="M15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12Z" stroke="currentColor" stroke-width="1.5"/>
+                                            </svg>
+                                            <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -385,157 +388,6 @@
                 </div>
             </div>
         </main>
-
-        <div id="routeDocumentModal" class="modal">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2>Route File</h2>
-                    <span class="close-modal">&times;</span>
-                </div>
-                <div class="modal-body">
-                    <form id="originalDocumentForm" action="submit_original_document.php" method="POST" enctype="multipart/form-data">
-                        <div class="form-group">
-                            <span class="categorization">Document Information</span>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="input-areas">
-                                <label for="tracking_number">Tracking Number</label>
-                                <input type="text" class="tracking-number" id="tracking-number" name="tracking-number" required readonly>
-                            </div>
-                            <div class="input-areas">
-                                <label for="date-received">Date Received</label>
-                                <input type="date" class="date-received" id="date-received" name="date-received" required>
-                            </div>
-                            <div class="input-areas">
-                                <label for="time-received">Time Received</label>
-                                <input type="time" class="time-received" id="time-received" name="time-received" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="input-areas">
-                                <label for="subject-matter">Subject Matter</label>
-                                <input type="text" class="subject-matter" id="subject-matter" name="subject-matter" placeholder="Enter document subject" required>
-                            </div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <span class="categorization">Document Details</span>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="input-areas">
-                                <label for="document-type">Document Type</label>
-                                <select class="document-type" id="document-type" name="document-type" onchange="updateRoutingOptions()" required>
-                                    <option value="" disabled selected>Select Document Type</option>
-                                </select>
-                            </div>
-                            <div class="input-areas">
-                                <label for="source-type">Source Type</label>
-                                <select class="source-type" id="source-type" name="source-type" onchange="updateInput()" required>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="blank-areas"></div>
-
-                            <div class="input-areas" id="sp-member-name">
-                                <label for="sp-member-name">SP Member Name</label>
-                                <input type="text" class="sp-member-name" id="sp-member-name" name="sp-member-name" placeholder="Enter SP Member Name" required>
-                            </div>
-
-                            <!-- <div class="input-areas" id="external-offices">
-                                <label for="external-offices">Select External Office</label>
-                                <select class="external-offices" id="external-offices" name="external-offices" required>
-                                    <option value="" disabled selected>Select External Office</option>
-                                </select>
-                            </div>  
-
-                            <div class="input-areas" id="external-hospitals">
-                                <label for="external-hospitals">External Hospital Name</label>
-                                <select class="external-hospitals" id="external-hospitals" name="external-hospitals" required>
-                                    <option value="" disabled selected>Select External Hospital</option>
-                                </select>                         
-                            </div>
-
-                            <div class="input-areas" id="agency-name">
-                                <label for="agency-name">Agency Name</label>
-                                <input type="text" class="agency-name" id="agency-name" name="agency-name" placeholder="Enter Agency Name" required>
-                            </div>
-
-                            <div class="input-areas" id="client-name">
-                                <label for="client-name">Client Name</label>
-                                <input type="text" class="client-name" id="client-name" name="client-name" placeholder="Enter Client Name" required>
-                            </div> -->
-                        </div>
-
-                        <div class="form-group">
-                            <span class="categorization">Location & Routing</span>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="input-areas">
-                                <label for="pangasinan-municipalities-and-cities">Municipality/City</label>
-                                <select class="pangasinan-municipalities-and-cities" id="pangasinan-municipalities-and-cities" name="pangasinan-municipalities-and-cities" required>
-                                    <option value="" disabled selected>Select Municipality/City</option>
-                                </select>
-                            </div>
-                            <div class="input-areas">
-                                <label for="routing-options">Routing Options</label>
-                                <select class="routing-options" id="routing-options" name="routing-options" onchange="updateCategory()" required>
-                                    <option value="" disabled selected>Select Routing Option</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="form-group" id="category">
-                            <div class="input-areas" id="category-select">
-                                <label for="category-select">Category</label>
-                                <select class="category-select" id="category-select" name="category-select">
-                                    <option value="" disabled selected>Select Category</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <span class="categorization">Additional Information</span>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="input-areas">
-                                <label for="remarks-or-notes">Remarks/Notes</label>
-                                <textarea class="remarks-or-notes" id="remarks-or-notes" name="remarks-or-notes" placeholder="Enter additional marks or notes"></textarea>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="input-areas">
-                                <label for="file-upload">Attachment (Optional)</label>
-                                <div class="drag-drop-area" id="dragDropArea">
-                                    <div class="drag-drop-content">
-                                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M25.0007 10.4168V29.1668M14.584 29.1668H10.4173C9.86478 29.1668 9.33488 29.3863 8.94418 29.777C8.55348 30.1677 8.33398 30.6976 8.33398 31.2502V39.5835C8.33398 40.136 8.55348 40.6659 8.94418 41.0566C9.33488 41.4473 9.86478 41.6668 10.4173 41.6668H39.584C40.1365 41.6668 40.6664 41.4473 41.0571 41.0566C41.4478 40.6659 41.6673 40.136 41.6673 39.5835V31.2502C41.6673 30.6976 41.4478 30.1677 41.0571 29.777C40.6664 29.3863 40.1365 29.1668 39.584 29.1668H35.4173M16.6673 18.7502L25.0007 8.3335L33.334 18.7502M35.4173 35.4168H35.4382" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                        <p>Drag & drop files here or <span class="browse-link">browse</span></p>
-                                        <p>PDF, DOC, DOCX, JPG, PNG</p>
-                                        <input type="file" id="file-upload" name="file-upload" multiple style="display: none;">
-                                        <div class="file-preview" id="filePreview"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group-buttons">
-                            <div class="buttons">
-                                <button type="button" class="cancel-button" onclick="closeModal()">Cancel</button>
-                                <button type="button" class="print-receipt-button" onclick="printReceipt()">Print Receipt</button>
-                                <button type="submit" class="save-as-drafts-button" name="action" value="draft">Save as Drafts</button>
-                                <button type="submit" class="save-and-route-button" name="action" value="save-and-route" id="mainActionButton">Save & Route</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-
     </div>
 </body>
 </html>

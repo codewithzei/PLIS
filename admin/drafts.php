@@ -215,7 +215,7 @@
                 <div class="title-and-search-container">
                     <div class="title-and-search-container title">
                         <h2>Drafts</h2>
-                        <p>Quick access to updates and document history</p>
+                        <p>Manage and edit document drafts before routing</p>
                     </div>
                     <div class="title-and-search-container search-and-sort">
                         <div class="search">
@@ -242,7 +242,7 @@
                             <div class="header-item" role="columnheader">Document Type</div>
                             <div class="header-item" role="columnheader">Municipality/City</div>
                             <div class="header-item" role="columnheader">Last Modified</div>
-                            <div class="header-item" role="columnheader">Action</div>
+                            <div class="header-item" role="columnheader">Actions</div>
                         </div> 
                     </div> 
                     <div class="table-body-scroll">
