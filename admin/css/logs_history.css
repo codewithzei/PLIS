@@ -187,16 +187,22 @@ main {
     font-weight: 500;
 }
 
-.header-item:nth-child(1), .table-cell:nth-child(1) { flex: 0.8; } /* # */
-.header-item:nth-child(2), .table-cell:nth-child(2) { flex: 1.9; } /* Subject Matter */
-.header-item:nth-child(3), .table-cell:nth-child(3) { flex: 1.8; } /* Document Type */
-.header-item:nth-child(4), .table-cell:nth-child(4) { flex: 1; } /* Status */
-.header-item:nth-child(5), .table-cell:nth-child(5) { flex: 1; } /* Division */
-.header-item:nth-child(6), .table-cell:nth-child(6) { flex: 1; } /* Action */
-.header-item:nth-child(7), .table-cell:nth-child(7) { flex: 0.6; } /* Action */
+.header-item:nth-child(1), .table-cell:nth-child(1) { flex: 1.2; } /* # */
+.header-item:nth-child(2), .table-cell:nth-child(2) { flex: 0.9; } /* Subject Matter */
+.header-item:nth-child(3), .table-cell:nth-child(3) { flex: 1.4; } /* Document Type */
+.header-item:nth-child(4), .table-cell:nth-child(4) { flex: 2.3; } /* Status */
+.header-item:nth-child(5), .table-cell:nth-child(5) { flex: 0.4; }
 
 .table-cell:nth-child(7) {
     justify-content: center; /* Center the SVG icon */
+}
+
+.action {
+    background-color: rgb(3, 75, 231, 0.2);
+    color: #034BE7;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 14px;
 }
 
 .action-icons {

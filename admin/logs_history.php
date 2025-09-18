@@ -249,83 +249,83 @@
                         <div class="table">
                             <div class="data-cell">
                                 <div class="table-row" role="row">
+                                    <div class="table-cell" role="cell">8/15/2023, 9:30:00 AM</div>
                                     <div class="table-cell" role="cell">2025-00001</div>
-                                    <div class="table-cell" role="cell">An Ordinance Regulating Public Health and Safety Standards in Municipal Facilities</div>
-                                    <div class="table-cell" role="cell">Provincial Governor's Office</div>
-                                    <div class="table-cell" role="cell">Bayambang</div>
-                                    <div class="table-cell" role="cell">09-08-2025</div>
+                                    <div class="table-cell" role="cell"><span class="action">Routed to Committee</span></div>
+                                    <div class="table-cell" role="cell">Forwarded to Committee on Health</div>
+                                    <div class="table-cell" role="cell">Kitty Cat</div>
                                 </div>
                         
                                 <div class="table-row" role="row">
+                                    <div class="table-cell" role="cell">8/15/2023, 9:30:00 AM</div>
                                     <div class="table-cell" role="cell">2025-00002</div>
-                                    <div class="table-cell" role="cell">Ordinance on the Maintenance of Public Health and Safety in Municipal Premises</div>
-                                    <div class="table-cell" role="cell">Provincial Population Cooperative and Livelihood Development Office</div>
-                                    <div class="table-cell" role="cell">Alaminos City</div>
-                                    <div class="table-cell" role="cell">09-08-2025</div>
+                                    <div class="table-cell" role="cell"><span class="action">Routed to Committee</span></div>
+                                    <div class="table-cell" role="cell">Forwarded to Committee on Health</div>
+                                    <div class="table-cell" role="cell">Kitty Cat</div>
                                 </div>
 
                                 <div class="table-row" role="row">
+                                    <div class="table-cell" role="cell">8/15/2023, 9:30:00 AM</div>
                                     <div class="table-cell" role="cell">2025-00003</div>
-                                    <div class="table-cell" role="cell">An Ordinance Ensuring Health and Safety Compliance in Municipal Buildings and Facilities</div>
-                                    <div class="table-cell" role="cell">An Ordinance Regulating Public Health and Safety Standards in Municipal Facilities</div>
-                                    <div class="table-cell" role="cell">Bayambang</div>
-                                    <div class="table-cell" role="cell">09-08-2025</div>
+                                    <div class="table-cell" role="cell"><span class="action">Routed to Committee</span></div>
+                                    <div class="table-cell" role="cell">Forwarded to Committee on Health</div>
+                                    <div class="table-cell" role="cell">Kitty Cat</div>
                                 </div>
 
                                 <div class="table-row" role="row">
+                                    <div class="table-cell" role="cell">8/15/2023, 9:30:00 AM</div>
                                     <div class="table-cell" role="cell">2025-00004</div>
-                                    <div class="table-cell" role="cell">Ordinance Prescribing Sanitation and Safety Measures for All Municipal Establishments</div>
-                                    <div class="table-cell" role="cell">Provincial Governor's Office</div>
-                                    <div class="table-cell" role="cell">Bayambang</div>
-                                    <div class="table-cell" role="cell">09-08-2025</div>
+                                    <div class="table-cell" role="cell"><span class="action">Routed to Committee</span></div>
+                                    <div class="table-cell" role="cell">Forwarded to Committee on Health</div>
+                                    <div class="table-cell" role="cell">Kitty Cat</div>
                                 </div>
 
                                 <div class="table-row" role="row">
+                                    <div class="table-cell" role="cell">8/15/2023, 9:30:00 AM</div>
                                     <div class="table-cell" role="cell">2025-00005</div>
-                                    <div class="table-cell" role="cell">An Ordinance Prescribing Traffic and Parking Rules Within the Municipality</div>
-                                    <div class="table-cell" role="cell">Provincial Governor's Office</div>
-                                    <div class="table-cell" role="cell">Bayambang</div>
-                                    <div class="table-cell" role="cell">09-08-2025</div>
+                                    <div class="table-cell" role="cell"><span class="action">Routed to Committee</span></div>
+                                    <div class="table-cell" role="cell">Forwarded to Committee on Health</div>
+                                    <div class="table-cell" role="cell">Kitty Cat</div>
                                 </div>
 
                                 <div class="table-row" role="row">
+                                    <div class="table-cell" role="cell">8/15/2023, 9:30:00 AM</div>
                                     <div class="table-cell" role="cell">2025-00001</div>
-                                    <div class="table-cell" role="cell">An Ordinance Regulating Public Health and Safety Standards in Municipal Facilities</div>
-                                    <div class="table-cell" role="cell">Provincial Governor's Office</div>
-                                    <div class="table-cell" role="cell">Bayambang</div>
-                                    <div class="table-cell" role="cell">09-08-2025</div>
+                                    <div class="table-cell" role="cell"><span class="action">Routed to Committee</span></div>
+                                    <div class="table-cell" role="cell">Forwarded to Committee on Health</div>
+                                    <div class="table-cell" role="cell">Kitty Cat</div>
                                 </div>
                         
                                 <div class="table-row" role="row">
+                                    <div class="table-cell" role="cell">8/15/2023, 9:30:00 AM</div>
                                     <div class="table-cell" role="cell">2025-00002</div>
-                                    <div class="table-cell" role="cell">Ordinance on the Maintenance of Public Health and Safety in Municipal Premises</div>
-                                    <div class="table-cell" role="cell">Provincial Population Cooperative and Livelihood Development Office</div>
-                                    <div class="table-cell" role="cell">Alaminos City</div>
-                                    <div class="table-cell" role="cell">09-08-2025</div>
+                                    <div class="table-cell" role="cell"><span class="action">Routed to Committee</span></div>
+                                    <div class="table-cell" role="cell">Forwarded to Committee on Health</div>
+                                    <div class="table-cell" role="cell">Kitty Cat</div>
                                 </div>
 
                                 <div class="table-row" role="row">
+                                    <div class="table-cell" role="cell">8/15/2023, 9:30:00 AM</div>
                                     <div class="table-cell" role="cell">2025-00003</div>
-                                    <div class="table-cell" role="cell">An Ordinance Ensuring Health and Safety Compliance in Municipal Buildings and Facilities</div>
-                                    <div class="table-cell" role="cell">An Ordinance Regulating Public Health and Safety Standards in Municipal Facilities</div>
-                                    <div class="table-cell" role="cell">Bayambang</div>
-                                    <div class="table-cell" role="cell">09-08-2025</div>
+                                    <div class="table-cell" role="cell"><span class="action">Routed to Committee</span></div>
+                                    <div class="table-cell" role="cell">Forwarded to Committee on Health</div>
+                                    <div class="table-cell" role="cell">Kitty Cat</div>
                                 </div>
 
                                 <div class="table-row" role="row">
+                                    <div class="table-cell" role="cell">8/15/2023, 9:30:00 AM</div>
                                     <div class="table-cell" role="cell">2025-00004</div>
-                                    <div class="table-cell" role="cell">Ordinance Prescribing Sanitation and Safety Measures for All Municipal Establishments</div>
-                                    <div class="table-cell" role="cell">Provincial Governor's Office</div>
-                                    <div class="table-cell" role="cell">Bayambang</div>
-                                    <div class="table-cell" role="cell">09-08-2025</div>
+                                    <div class="table-cell" role="cell"><span class="action">Routed to Committee</span></div>
+                                    <div class="table-cell" role="cell">Forwarded to Committee on Health</div>
+                                    <div class="table-cell" role="cell">Kitty Cat</div>
                                 </div>
 
                                 <div class="table-row" role="row">
+                                    <div class="table-cell" role="cell">8/15/2023, 9:30:00 AM</div>
                                     <div class="table-cell" role="cell">2025-00005</div>
-                                    <div class="table-cell" role="cell">An Ordinance Prescribing Traffic and Parking Rules Within the Municipality</div>
-                                    <div class="table-cell" role="cell">Provincial Governor's Office</div>
-                                    <div class="table-cell" role="cell">Bayambang</div>
-                                    <div class="table-cell" role="cell">09-08-2025</div>
+                                    <div class="table-cell" role="cell"><span class="action">Routed to Committee</span></div>
+                                    <div class="table-cell" role="cell">Forwarded to Committee on Health</div>
+                                    <div class="table-cell" role="cell">Kitty Cat</div>
                                 </div>
                             </div>
                         </div>
