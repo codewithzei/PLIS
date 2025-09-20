@@ -1,0 +1,356 @@
+main {
+    flex: 1;
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    height: 951px;
+    overflow-y: auto;
+    position: relative;
+    padding: 0;
+    z-index: 0;
+    padding: 0;
+}
+
+.document-updates {
+    width: 1235px;
+    height: 785px; /* Keep this height for the overall container */
+    padding: 40px 30px 30px 30px;
+    background-color: var(--container-bg);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    position: absolute;
+    top: 125px;
+    left: 519px;
+    right: 0;
+    bottom: 0;
+    display: flex; /* Add flexbox for better layout control */
+    flex-direction: column; /* Stack children vertically */
+}
+
+.title-and-search-container.title {
+    flex-direction: column;
+}
+
+.title-and-search-container.title h2 {
+    margin: 0;
+    padding: 0;
+    color: var(--text-default);
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.title-and-search-container.title p {
+    margin: 0;
+    padding: 0;
+    color: #666666;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.title-and-search-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.search-sort-upload-group {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    gap: 20px; /* Add some space between elements */
+}
+
+.search-sort-upload-group .search-form {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.search-sort-upload-group .search-icon {
+    position: absolute;
+    left: 15px;
+    color: #888888;
+    z-index: 2;
+}
+        
+.search-sort-upload-group .search-bar {
+    width: 250px;
+    height: 40px;
+    padding: 10px 15px 10px 45px;
+    border: 1px solid #7B7F88;
+    border-radius: var(--border-radius);
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    margin: 5px 0; /* Remove right margin here, gap will handle spacing */
+}
+        
+.search-sort-upload-group .search-bar:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 2px 10px rgba(66, 133, 244, 0.2);
+}
+
+.search-sort-upload-group .search-bar::placeholder {
+    color: #888888;
+}
+
+.sort-container {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #7B7F88;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, color 0.3s;
+    cursor: pointer;
+    margin: 5px 0 5px 0;
+}
+
+.sort-container svg {
+    color: #888888;
+}
+
+.sort-container:hover {
+    transform: scale(1.1);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.sort-container:hover svg {
+    color: var(--primary-color);
+}
+
+.sort-container:focus {
+    transform: scale(1.1);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.sort-container:focus svg {
+    color: var(--primary-color);
+}
+
+.upload-button-container {
+    width: 230px;
+    height: 40px;
+    background-color: var(--button-color);
+    border-radius: var(--buttton-border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.upload-button-container a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+}
+
+.upload-button-container a svg {
+    flex-shrink: 0; /* Prevents the SVG from shrinking */
+}
+
+.upload-button-container:hover {
+    transform: scale(1.02);
+    background-color: #0D7AD9;
+}
+
+.upload-button-container:hover a {
+    color: #ffffff;
+}
+
+.table-container {
+    width: 100%;
+    margin-top: 30px;
+    overflow-x: auto; /* Keep for horizontal scrolling if needed */
+    flex-grow: 1; /* Allow it to take available vertical space */
+    display: flex;
+    flex-direction: column;
+}
+
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 1170px; /* Prevent too much squeezing */
+}
+
+.table-header {
+    display: flex;
+    font-weight: bold;
+}
+
+.table-header-fixed {
+    width: 100%;
+    border-bottom: 1px solid #D9D9D9; 
+    background-color: var(--container-bg); /* Ensure background is solid */
+    z-index: 1; /* Ensure it stays above the scrolling content */
+}
+
+.table-body-scroll {
+    max-height: 584px; /* Set the maximum height for vertical scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrollbar if not needed */
+    width: 100%;
+}
+
+.table-row {
+    display: flex;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.table-row:hover {
+    background-color: #f8f9fa;
+}
+
+.header-item, .table-cell {
+    color: var(--text-default);
+    font-size: 16px;
+    flex: 1;
+    padding: 20px 30px 20px 0; /* Adjust padding as needed */
+    display: flex;
+    align-items: center;
+    word-wrap: break-word; /* Allow long words to break */
+    white-space: normal; /* Allow text to wrap */
+}
+
+.table-cell {
+    color: var(--text-default);
+    font-weight: 500;
+}
+
+.header-item:nth-child(1), .table-cell:nth-child(1) { flex: 1.2; }
+.header-item:nth-child(2), .table-cell:nth-child(2) { flex: 2; }
+.header-item:nth-child(3), .table-cell:nth-child(3) { flex: 1.6; }
+.header-item:nth-child(4), .table-cell:nth-child(4) { flex: 1.9; } 
+.header-item:nth-child(5), .table-cell:nth-child(5) { flex: 0.8; } 
+
+.header-item:nth-child(5), .table-cell:nth-child(5) {
+    justify-content: center; /* Center the SVG icon */
+}
+
+.authors-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px; /* Space between author names */
+}
+
+.authors-group p {
+    margin: 0;
+    padding: 0;
+}
+
+.authors-group .authors-sponsors {
+    font-size: 16px;
+    color: var(--text-default);
+}
+
+.authors-group .co-authors-sponsors {
+    font-size: 14px;
+    color: #4B5563;
+}
+
+.action-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.view-icon {
+    color: #666666;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.edit-icon {
+    color: #034BE7;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.view-icon:hover {
+    color: #555555;
+}
+
+.edit-icon:hover {
+    color: #0030aa;
+}
+
+.download-icon {
+    color: #28a745;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.download-icon:hover {
+    color: #1e7e34;
+}
+
+.pagination-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.page h2 {
+    margin: 0;
+    padding: 10px 10px 10px 0;
+    font-weight: 400;
+    color: #666666;
+    font-size: 16px;
+}
+
+.pagination {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.page-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.page-container.active-page,
+.page-container.active-page h2 {
+    background-color: #E2F0FF;
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.page-container:hover,
+.page-container:hover h2,
+.page-container:hover svg {
+    background-color: #E2F0FF;
+    color: var(--primary-color);
+}
+
+.pagination h2 {
+    margin: 0;
+    color: var(--text-default);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.pagination svg {
+    color: #2E3036;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
