@@ -1,0 +1,22 @@
+main {
+    flex: 1;
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    height: 1035px;
+    overflow-y: auto;
+    position: relative;
+    padding: 0;
+    z-index: 0;
+    padding: 0;
+}
+
+.user-profile-container {
+    width: 1235px;
+    height: 470px;
+    position: absolute;
+    top: 125px;
+    left: 519px;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+}

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DASHBOARD</title>
     <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/drafts.css">
+    <link rel="stylesheet" href="css/account_settings.css">
     <link rel="icon" href="images/logo.png" type="image/png">
 </head>
 <body>
@@ -39,9 +39,9 @@
                     
                     <!-- Document Management Section -->
                     <div class="nav-section">
-                    <div class="nav-label active">DOCUMENT MANAGEMENT</div>
+                    <div class="nav-label">DOCUMENT MANAGEMENT</div>
                     <ul>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a href="drafts.php">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M18 5V4C18 3.73478 17.8946 3.48043 17.7071 3.29289C17.5196 3.10536 17.2652 3 17 3H8.914C8.6488 3.00006 8.39449 3.10545 8.207 3.293L4.293 7.207C4.10545 7.39449 4.00006 7.64881 4 7.914V20C4 20.2652 4.10536 20.5196 4.29289 20.7071C4.48043 20.8946 4.73478 21 5 21H17C17.2652 21 17.5196 20.8946 17.7071 20.7071C17.8946 20.5196 18 20.2652 18 20V15M9 3V7C9 7.26522 8.89464 7.51957 8.70711 7.70711C8.51957 7.89464 8.26522 8 8 8H4M15.383 8.772L18.128 11.518M19.343 7.612C19.7344 8.00371 19.9542 8.53478 19.9542 9.0885C19.9542 9.64222 19.7344 10.1733 19.343 10.565L12.693 17.211L9 17.95L9.739 14.258L16.385 7.612C16.5789 7.41722 16.8094 7.26267 17.0632 7.15721C17.317 7.05175 17.5892 6.99746 17.864 6.99746C18.1388 6.99746 18.411 7.05175 18.6648 7.15721C18.9186 7.26267 19.1491 7.41722 19.343 7.612Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -124,9 +124,9 @@
                     
                     <!-- System Section -->
                     <div class="nav-section">
-                    <div class="nav-label">SYSTEM</div>
+                    <div class="nav-label active">SYSTEM</div>
                     <ul>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a href="settings.php">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M9.59372 3.94C9.68372 3.398 10.1537 3 10.7037 3H13.2967C13.8467 3 14.3167 3.398 14.4067 3.94L14.6197 5.221C14.6827 5.595 14.9327 5.907 15.2647 6.091C15.3387 6.131 15.4117 6.174 15.4847 6.218C15.8097 6.414 16.2047 6.475 16.5597 6.342L17.7767 5.886C18.0261 5.79221 18.3007 5.78998 18.5516 5.87971C18.8025 5.96945 19.0134 6.14531 19.1467 6.376L20.4427 8.623C20.5758 8.8537 20.6227 9.12413 20.5751 9.38617C20.5275 9.6482 20.3884 9.88485 20.1827 10.054L19.1797 10.881C18.8867 11.122 18.7417 11.494 18.7497 11.873C18.7511 11.958 18.7511 12.043 18.7497 12.128C18.7417 12.506 18.8867 12.878 19.1797 13.119L20.1837 13.946C20.6077 14.296 20.7177 14.901 20.4437 15.376L19.1457 17.623C19.0126 17.8536 18.8019 18.0296 18.5512 18.1195C18.3005 18.2094 18.0261 18.2074 17.7767 18.114L16.5597 17.658C16.2047 17.525 15.8097 17.586 15.4837 17.782C15.4112 17.8261 15.3379 17.8688 15.2637 17.91C14.9327 18.093 14.6827 18.405 14.6197 18.779L14.4067 20.06C14.3167 20.603 13.8467 21 13.2967 21H10.7027C10.1527 21 9.68372 20.602 9.59272 20.06L9.37972 18.779C9.31772 18.405 9.06772 18.093 8.73572 17.909C8.66157 17.8681 8.58822 17.8258 8.51572 17.782C8.19072 17.586 7.79572 17.525 7.43972 17.658L6.22272 18.114C5.97345 18.2075 5.69908 18.2096 5.44842 18.1199C5.19775 18.0302 4.98703 17.8545 4.85372 17.624L3.55672 15.377C3.42366 15.1463 3.37676 14.8759 3.42437 14.6138C3.47198 14.3518 3.61101 14.1152 3.81672 13.946L4.82072 13.119C5.11272 12.879 5.25772 12.506 5.25072 12.128C5.24915 12.043 5.24915 11.958 5.25072 11.873C5.25772 11.493 5.11272 11.122 4.82072 10.881L3.81672 10.054C3.61126 9.88489 3.47239 9.64843 3.42479 9.38662C3.37719 9.12481 3.42393 8.8546 3.55672 8.624L4.85372 6.377C4.9869 6.14614 5.19773 5.97006 5.44863 5.88014C5.69953 5.79021 5.97421 5.79229 6.22372 5.886L7.43972 6.342C7.79572 6.475 8.19072 6.414 8.51572 6.218C8.58772 6.174 8.66172 6.132 8.73572 6.09C9.06772 5.907 9.31772 5.595 9.37972 5.221L9.59372 3.94Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -207,172 +207,14 @@
                                 <p>Admin</p>
                             </div>
                         </div>
-                    </div>
-                </div>  
+                    </div> 
+                </div>     
             </div>
         </header>
         <main class="main-content">
-            <div class="document-updates">
-                <div class="title-and-search-container">
-                    <div class="title-and-search-container title">
-                        <h2>Drafts</h2>
-                        <p>Manage and edit document drafts before routing</p>
-                    </div>
-                    <div class="title-and-search-container search-and-sort">
-                        <div class="search">
-                            <form action="#" method="GET" class="search-form">
-                                <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M17.5 17.5L14.5833 14.5833M14.1667 8.33333C14.1667 9.09938 14.0158 9.85792 13.7226 10.5657C13.4295 11.2734 12.9998 11.9164 12.4581 12.4581C11.9164 12.9998 11.2734 13.4295 10.5657 13.7226C9.85792 14.0158 9.09938 14.1667 8.33333 14.1667C7.56729 14.1667 6.80875 14.0158 6.10101 13.7226C5.39328 13.4295 4.75022 12.9998 4.20854 12.4581C3.66687 11.9164 3.23719 11.2734 2.94404 10.5657C2.65088 9.85792 2.5 9.09938 2.5 8.33333C2.5 6.78624 3.11458 5.30251 4.20854 4.20854C5.30251 3.11458 6.78624 2.5 8.33333 2.5C9.88043 2.5 11.3642 3.11458 12.4581 4.20854C13.5521 5.30251 14.1667 6.78624 14.1667 8.33333Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                                </svg>
-                                <input type="text" name="search" placeholder="Search..." class="search-bar">
-                            </form>
-                        </div>
-                        <div class="sort">
-                            <div class="sort-container">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M18.796 4H5.20398C5.01174 3.99984 4.82352 4.05509 4.66187 4.15914C4.50022 4.26319 4.37199 4.41164 4.29253 4.58669C4.21308 4.76175 4.18577 4.956 4.21387 5.14618C4.24197 5.33636 4.32429 5.51441 4.45098 5.659L9.75298 11.717C9.91245 11.8995 10.0002 12.1337 9.99998 12.376V17.25C9.99998 17.3276 10.0181 17.4042 10.0528 17.4736C10.0875 17.543 10.1379 17.6034 10.2 17.65L13.2 19.9C13.2743 19.9557 13.3626 19.9896 13.4551 19.998C13.5476 20.0063 13.6405 19.9887 13.7236 19.9472C13.8066 19.9057 13.8765 19.8419 13.9253 19.7629C13.9741 19.6839 14 19.5929 14 19.5V12.376C13.9997 12.1337 14.0875 11.8995 14.247 11.717L19.549 5.658C20.115 5.012 19.655 4 18.796 4Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="table-container">
-                    <div class="table-header-fixed">
-                        <div class="table-header">
-                            <div class="header-item" role="columnheader">Subject Matter</div>
-                            <div class="header-item" role="columnheader">Document Type</div>
-                            <div class="header-item" role="columnheader">Municipality/City</div>
-                            <div class="header-item" role="columnheader">Last Modified</div>
-                            <div class="header-item" role="columnheader">Actions</div>
-                        </div> 
-                    </div> 
-                    <div class="table-body-scroll">
-                        <div class="table">
-                            <div class="data-cell">
-                                <div class="table-row" role="row">
-                                    <div class="table-cell" role="cell">An Ordinance Regulating Public Health and Safety Standards in Municipal Facilities</div>
-                                    <div class="table-cell" role="cell">Provincial Ordinance</div>
-                                    <div class="table-cell" role="cell">Bayambang</div>
-                                    <div class="table-cell" role="cell">2025-05-19 15:11:49</div>
-                                    <div class="table-cell" role="cell">
-                                        <div class="action-icons">
-                                            <svg class="archive-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M10 12V13H14V12M18 19H6C5.73478 19 5.48043 18.8946 5.29289 18.7071C5.10536 18.5196 5 18.2652 5 18V9H19V18C19 18.2652 18.8946 18.5196 18.7071 18.7071C18.5196 18.8946 18.2652 19 18 19ZM4 5H20C20.2652 5 20.5196 5.10536 20.7071 5.29289C20.8946 5.48043 21 5.73478 21 6V8C21 8.26522 20.8946 8.51957 20.7071 8.70711C20.5196 8.89464 20.2652 9 20 9H4C3.73478 9 3.48043 8.89464 3.29289 8.70711C3.10536 8.51957 3 8.26522 3 8V6C3 5.73478 3.10536 5.48043 3.29289 5.29289C3.48043 5.10536 3.73478 5 4 5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-                                            </svg>
-                                            <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div>
-                        
-                                <div class="table-row" role="row">
-                                    <div class="table-cell" role="cell">Ordinance on the Maintenance of Public Health and Safety in Municipal Premises</div>
-                                    <div class="table-cell" role="cell">Provincial Appropriation Ordinance</div>
-                                    <div class="table-cell" role="cell">Bayambang</div>
-                                    <div class="table-cell" role="cell">2025-05-19 15:11:49</div>
-                                    <div class="table-cell" role="cell">
-                                        <div class="action-icons">
-                                            <svg class="archive-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M10 12V13H14V12M18 19H6C5.73478 19 5.48043 18.8946 5.29289 18.7071C5.10536 18.5196 5 18.2652 5 18V9H19V18C19 18.2652 18.8946 18.5196 18.7071 18.7071C18.5196 18.8946 18.2652 19 18 19ZM4 5H20C20.2652 5 20.5196 5.10536 20.7071 5.29289C20.8946 5.48043 21 5.73478 21 6V8C21 8.26522 20.8946 8.51957 20.7071 8.70711C20.5196 8.89464 20.2652 9 20 9H4C3.73478 9 3.48043 8.89464 3.29289 8.70711C3.10536 8.51957 3 8.26522 3 8V6C3 5.73478 3.10536 5.48043 3.29289 5.29289C3.48043 5.10536 3.73478 5 4 5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-                                            </svg>
-                                            <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="table-row" role="row">
-                                    <div class="table-cell" role="cell">An Ordinance Ensuring Health and Safety Compliance in Municipal Buildings and Facilities</div>
-                                    <div class="table-cell" role="cell">Provincial Ordinance</div>
-                                    <div class="table-cell" role="cell">Bayambang</div>
-                                    <div class="table-cell" role="cell">2025-05-19 15:11:49</div>
-                                    <div class="table-cell" role="cell">
-                                        <div class="action-icons">
-                                            <svg class="archive-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M10 12V13H14V12M18 19H6C5.73478 19 5.48043 18.8946 5.29289 18.7071C5.10536 18.5196 5 18.2652 5 18V9H19V18C19 18.2652 18.8946 18.5196 18.7071 18.7071C18.5196 18.8946 18.2652 19 18 19ZM4 5H20C20.2652 5 20.5196 5.10536 20.7071 5.29289C20.8946 5.48043 21 5.73478 21 6V8C21 8.26522 20.8946 8.51957 20.7071 8.70711C20.5196 8.89464 20.2652 9 20 9H4C3.73478 9 3.48043 8.89464 3.29289 8.70711C3.10536 8.51957 3 8.26522 3 8V6C3 5.73478 3.10536 5.48043 3.29289 5.29289C3.48043 5.10536 3.73478 5 4 5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-                                            </svg>
-                                            <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="table-row" role="row">
-                                    <div class="table-cell" role="cell">Ordinance Prescribing Sanitation and Safety Measures for All Municipal Establishments</div>
-                                    <div class="table-cell" role="cell">Provincial Ordinance</div>
-                                    <div class="table-cell" role="cell">Bayambang</div>
-                                    <div class="table-cell" role="cell">2025-05-19 15:11:49</div>
-                                    <div class="table-cell" role="cell">
-                                        <div class="action-icons">
-                                            <svg class="archive-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M10 12V13H14V12M18 19H6C5.73478 19 5.48043 18.8946 5.29289 18.7071C5.10536 18.5196 5 18.2652 5 18V9H19V18C19 18.2652 18.8946 18.5196 18.7071 18.7071C18.5196 18.8946 18.2652 19 18 19ZM4 5H20C20.2652 5 20.5196 5.10536 20.7071 5.29289C20.8946 5.48043 21 5.73478 21 6V8C21 8.26522 20.8946 8.51957 20.7071 8.70711C20.5196 8.89464 20.2652 9 20 9H4C3.73478 9 3.48043 8.89464 3.29289 8.70711C3.10536 8.51957 3 8.26522 3 8V6C3 5.73478 3.10536 5.48043 3.29289 5.29289C3.48043 5.10536 3.73478 5 4 5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-                                            </svg>
-                                            <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="table-row" role="row">
-                                    <div class="table-cell" role="cell">An Ordinance Prescribing Traffic and Parking Rules Within the Municipality</div>
-                                    <div class="table-cell" role="cell">Provincial Ordinance</div>
-                                    <div class="table-cell" role="cell">Bayambang</div>
-                                    <div class="table-cell" role="cell">2025-05-19 15:11:49</div>
-                                    <div class="table-cell" role="cell">
-                                        <div class="action-icons">
-                                            <svg class="archive-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M10 12V13H14V12M18 19H6C5.73478 19 5.48043 18.8946 5.29289 18.7071C5.10536 18.5196 5 18.2652 5 18V9H19V18C19 18.2652 18.8946 18.5196 18.7071 18.7071C18.5196 18.8946 18.2652 19 18 19ZM4 5H20C20.2652 5 20.5196 5.10536 20.7071 5.29289C20.8946 5.48043 21 5.73478 21 6V8C21 8.26522 20.8946 8.51957 20.7071 8.70711C20.5196 8.89464 20.2652 9 20 9H4C3.73478 9 3.48043 8.89464 3.29289 8.70711C3.10536 8.51957 3 8.26522 3 8V6C3 5.73478 3.10536 5.48043 3.29289 5.29289C3.48043 5.10536 3.73478 5 4 5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-                                            </svg>
-                                            <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="pagination-container">
-                        <div class="page">
-                            <h2>1 of 32</h2>
-                        </div>
-                        <div class="pagination">
-                            <div class="page-container left-arrow">
-                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.6243 13.4584L5.66602 8.50008L10.6243 3.54175" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-                            <div class="page-container previous">
-                                <h2>Previous</h2>
-                            </div>
-                            <div class="page-container active-page">
-                                <h2>1</h2>
-                            </div>
-                            <div class="page-container">
-                                <h2>2</h2>
-                            </div>
-                            <div class="page-container">
-                                <h2>3</h2>
-                            </div>
-                            <div class="page-container next">
-                                <h2>Next</h2>
-                            </div>
-                            <div class="page-container right-arrow">
-                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.375 3.54175L11.3333 8.50008L6.375 13.4584" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+            <div class="user-profile-container">
+                
             </div>
-
         </main>
     </div>
 </body>

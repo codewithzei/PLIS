@@ -1,0 +1,110 @@
+main {
+    flex: 1;
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    height: 1035px;
+    overflow-y: auto;
+    position: relative;
+    padding: 0;
+    z-index: 0;
+    padding: 0;
+}
+
+.account-settings {
+    width: 391px;
+    height: 184px;
+    padding: 40px 30px 30px 30px;
+    background-color: var(--container-bg);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    position: absolute;
+    top: 125px;
+    left: 519px;
+    right: 0;
+    bottom: 0;
+}
+
+.account-settings h2,
+.user-management h2,
+.data-management h2 {
+    margin: 0;
+    padding: 0;
+    color: var(--text-default);
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.account-settings p,
+.user-management p,
+.data-management p {
+    margin: 0;
+    padding: 0;
+    color: #666666;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.manage-button-container {
+    width: 335px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: var(--button-color);
+    border-radius: var(--buttton-border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.manage-button-container a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+}
+
+.manage-button-container a svg {
+    flex-shrink: 0; /* Prevents the SVG from shrinking */
+}
+
+.manage-button-container:hover {
+    transform: scale(1.02);
+    background-color: #0D7AD9;
+}
+
+.manage-button-container:hover a {
+    color: #ffffff;
+}
+
+.user-management {
+    width: 391px;
+    height: 184px;
+    padding: 40px 30px 30px 30px;
+    background-color: var(--container-bg);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    position: absolute;
+    top: 125px;
+    left: 941px;
+    right: 0;
+    bottom: 0;
+}
+
+.data-management {
+    width: 391px;
+    height: 184px;
+    padding: 40px 30px 30px 30px;
+    background-color: var(--container-bg);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    position: absolute;
+    top: 125px;
+    left: 1363px;
+    right: 0;
+    bottom: 0;
+}

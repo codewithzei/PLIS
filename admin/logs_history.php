@@ -207,7 +207,8 @@
                                 <p>Admin</p>
                             </div>
                         </div>
-                    </div> 
+                    </div>
+                </div>  
             </div>
         </header>
         <main class="main-content">
