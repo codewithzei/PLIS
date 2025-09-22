@@ -116,7 +116,7 @@
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M10 12V13H14V12M18 19H6C5.73478 19 5.48043 18.8946 5.29289 18.7071C5.10536 18.5196 5 18.2652 5 18V9H19V18C19 18.2652 18.8946 18.5196 18.7071 18.7071C18.5196 18.8946 18.2652 19 18 19ZM4 5H20C20.2652 5 20.5196 5.10536 20.7071 5.29289C20.8946 5.48043 21 5.73478 21 6V8C21 8.26522 20.8946 8.51957 20.7071 8.70711C20.5196 8.89464 20.2652 9 20 9H4C3.73478 9 3.48043 8.89464 3.29289 8.70711C3.10536 8.51957 3 8.26522 3 8V6C3 5.73478 3.10536 5.48043 3.29289 5.29289C3.48043 5.10536 3.73478 5 4 5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
                                 </svg>
-                                Archive
+                                Archive 
                             </a>
                         </li>
                     </ul>
@@ -211,6 +211,154 @@
             </div>
         </header>
         <main class="main-content">
+            <div class="approved-documents">
+                <div class="approved-documents-title">
+                    <h2>Approved Documents</h2>
+                    <p>List of approved documents ready to be uploaded</p>
+                </div>
+                <div class="content-scroll">
+                    <div class="content">
+                        <div class="approved-document-row">
+                            <div class="approved-document">
+                                <div class="document-details">
+                                    <div class="document-number">
+                                        <h2>PRN - 2025 - 00001</h2>
+                                        <p>8 min ago</p>
+                                    </div>
+                                    <div class="document-title">
+                                        <h2>Ordinance on the Maintenance of Public Health and Safety...</h2>
+                                    </div>
+                                </div>
+                                <div class="upload-container">
+                                    <svg class="upload-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 6.25V17.5M8.75 17.5H6.25C5.91848 17.5 5.60054 17.6317 5.36612 17.8661C5.1317 18.1005 5 18.4185 5 18.75V23.75C5 24.0815 5.1317 24.3995 5.36612 24.6339C5.60054 24.8683 5.91848 25 6.25 25H23.75C24.0815 25 24.3995 24.8683 24.6339 24.6339C24.8683 24.3995 25 24.0815 25 23.75V18.75C25 18.4185 24.8683 18.1005 24.6339 17.8661C24.3995 17.6317 24.0815 17.5 23.75 17.5H21.25M10 11.25L15 5L20 11.25M21.25 21.25H21.2625" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="approved-document">
+                                <div class="document-details">
+                                    <div class="document-number">
+                                        <h2>PRN - 2025 - 00001</h2>
+                                        <p>8 min ago</p>
+                                    </div>
+                                    <div class="document-title">
+                                        <h2>Ordinance on the Maintenance of Public Health and Safety...</h2>
+                                    </div>
+                                </div>
+                                <div class="upload-container">
+                                    <svg class="upload-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 6.25V17.5M8.75 17.5H6.25C5.91848 17.5 5.60054 17.6317 5.36612 17.8661C5.1317 18.1005 5 18.4185 5 18.75V23.75C5 24.0815 5.1317 24.3995 5.36612 24.6339C5.60054 24.8683 5.91848 25 6.25 25H23.75C24.0815 25 24.3995 24.8683 24.6339 24.6339C24.8683 24.3995 25 24.0815 25 23.75V18.75C25 18.4185 24.8683 18.1005 24.6339 17.8661C24.3995 17.6317 24.0815 17.5 23.75 17.5H21.25M10 11.25L15 5L20 11.25M21.25 21.25H21.2625" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="approved-document-row">
+                            <div class="approved-document">
+                                <div class="document-details">
+                                    <div class="document-number">
+                                        <h2>PRN - 2025 - 00001</h2>
+                                        <p>8 min ago</p>
+                                    </div>
+                                    <div class="document-title">
+                                        <h2>Ordinance on the Maintenance of Public Health and Safety...</h2>
+                                    </div>
+                                </div>
+                                <div class="upload-container">
+                                    <svg class="upload-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 6.25V17.5M8.75 17.5H6.25C5.91848 17.5 5.60054 17.6317 5.36612 17.8661C5.1317 18.1005 5 18.4185 5 18.75V23.75C5 24.0815 5.1317 24.3995 5.36612 24.6339C5.60054 24.8683 5.91848 25 6.25 25H23.75C24.0815 25 24.3995 24.8683 24.6339 24.6339C24.8683 24.3995 25 24.0815 25 23.75V18.75C25 18.4185 24.8683 18.1005 24.6339 17.8661C24.3995 17.6317 24.0815 17.5 23.75 17.5H21.25M10 11.25L15 5L20 11.25M21.25 21.25H21.2625" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="approved-document">
+                                <div class="document-details">
+                                    <div class="document-number">
+                                        <h2>PRN - 2025 - 00001</h2>
+                                        <p>8 min ago</p>
+                                    </div>
+                                    <div class="document-title">
+                                        <h2>Ordinance on the Maintenance of Public Health and Safety...</h2>
+                                    </div>
+                                </div>
+                                <div class="upload-container">
+                                    <svg class="upload-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 6.25V17.5M8.75 17.5H6.25C5.91848 17.5 5.60054 17.6317 5.36612 17.8661C5.1317 18.1005 5 18.4185 5 18.75V23.75C5 24.0815 5.1317 24.3995 5.36612 24.6339C5.60054 24.8683 5.91848 25 6.25 25H23.75C24.0815 25 24.3995 24.8683 24.6339 24.6339C24.8683 24.3995 25 24.0815 25 23.75V18.75C25 18.4185 24.8683 18.1005 24.6339 17.8661C24.3995 17.6317 24.0815 17.5 23.75 17.5H21.25M10 11.25L15 5L20 11.25M21.25 21.25H21.2625" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="approved-document-row">
+                            <div class="approved-document">
+                                <div class="document-details">
+                                    <div class="document-number">
+                                        <h2>PRN - 2025 - 00001</h2>
+                                        <p>8 min ago</p>
+                                    </div>
+                                    <div class="document-title">
+                                        <h2>Ordinance on the Maintenance of Public Health and Safety...</h2>
+                                    </div>
+                                </div>
+                                <div class="upload-container">
+                                    <svg class="upload-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 6.25V17.5M8.75 17.5H6.25C5.91848 17.5 5.60054 17.6317 5.36612 17.8661C5.1317 18.1005 5 18.4185 5 18.75V23.75C5 24.0815 5.1317 24.3995 5.36612 24.6339C5.60054 24.8683 5.91848 25 6.25 25H23.75C24.0815 25 24.3995 24.8683 24.6339 24.6339C24.8683 24.3995 25 24.0815 25 23.75V18.75C25 18.4185 24.8683 18.1005 24.6339 17.8661C24.3995 17.6317 24.0815 17.5 23.75 17.5H21.25M10 11.25L15 5L20 11.25M21.25 21.25H21.2625" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="approved-document">
+                                <div class="document-details">
+                                    <div class="document-number">
+                                        <h2>PRN - 2025 - 00001</h2>
+                                        <p>8 min ago</p>
+                                    </div>
+                                    <div class="document-title">
+                                        <h2>Ordinance on the Maintenance of Public Health and Safety...</h2>
+                                    </div>
+                                </div>
+                                <div class="upload-container">
+                                    <svg class="upload-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 6.25V17.5M8.75 17.5H6.25C5.91848 17.5 5.60054 17.6317 5.36612 17.8661C5.1317 18.1005 5 18.4185 5 18.75V23.75C5 24.0815 5.1317 24.3995 5.36612 24.6339C5.60054 24.8683 5.91848 25 6.25 25H23.75C24.0815 25 24.3995 24.8683 24.6339 24.6339C24.8683 24.3995 25 24.0815 25 23.75V18.75C25 18.4185 24.8683 18.1005 24.6339 17.8661C24.3995 17.6317 24.0815 17.5 23.75 17.5H21.25M10 11.25L15 5L20 11.25M21.25 21.25H21.2625" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="approved-document-row">
+                            <div class="approved-document">
+                                <div class="document-details">
+                                    <div class="document-number">
+                                        <h2>PRN - 2025 - 00001</h2>
+                                        <p>8 min ago</p>
+                                    </div>
+                                    <div class="document-title">
+                                        <h2>Ordinance on the Maintenance of Public Health and Safety...</h2>
+                                    </div>
+                                </div>
+                                <div class="upload-container">
+                                    <svg class="upload-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 6.25V17.5M8.75 17.5H6.25C5.91848 17.5 5.60054 17.6317 5.36612 17.8661C5.1317 18.1005 5 18.4185 5 18.75V23.75C5 24.0815 5.1317 24.3995 5.36612 24.6339C5.60054 24.8683 5.91848 25 6.25 25H23.75C24.0815 25 24.3995 24.8683 24.6339 24.6339C24.8683 24.3995 25 24.0815 25 23.75V18.75C25 18.4185 24.8683 18.1005 24.6339 17.8661C24.3995 17.6317 24.0815 17.5 23.75 17.5H21.25M10 11.25L15 5L20 11.25M21.25 21.25H21.2625" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="approved-document">
+                                <div class="document-details">
+                                    <div class="document-number">
+                                        <h2>PRN - 2025 - 00001</h2>
+                                        <p>8 min ago</p>
+                                    </div>
+                                    <div class="document-title">
+                                        <h2>Ordinance on the Maintenance of Public Health and Safety...</h2>
+                                    </div>
+                                </div>
+                                <div class="upload-container">
+                                    <svg class="upload-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 6.25V17.5M8.75 17.5H6.25C5.91848 17.5 5.60054 17.6317 5.36612 17.8661C5.1317 18.1005 5 18.4185 5 18.75V23.75C5 24.0815 5.1317 24.3995 5.36612 24.6339C5.60054 24.8683 5.91848 25 6.25 25H23.75C24.0815 25 24.3995 24.8683 24.6339 24.6339C24.8683 24.3995 25 24.0815 25 23.75V18.75C25 18.4185 24.8683 18.1005 24.6339 17.8661C24.3995 17.6317 24.0815 17.5 23.75 17.5H21.25M10 11.25L15 5L20 11.25M21.25 21.25H21.2625" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+            
             <div class="document-updates">
                 <div class="title-and-search-container">
                     <div class="title-and-search-container title">
