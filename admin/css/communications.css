@@ -189,13 +189,12 @@ main {
 
 .header-item:nth-child(1), .table-cell:nth-child(1) { flex: 0.8; } /* # */
 .header-item:nth-child(2), .table-cell:nth-child(2) { flex: 1.9; } /* Subject Matter */
-.header-item:nth-child(3), .table-cell:nth-child(3) { flex: 1.8; } /* Document Type */
+.header-item:nth-child(3), .table-cell:nth-child(3) { flex: 1.4; } /* Document Type */
 .header-item:nth-child(4), .table-cell:nth-child(4) { flex: 1; } /* Status */
-.header-item:nth-child(5), .table-cell:nth-child(5) { flex: 1; } /* Division */
+.header-item:nth-child(5), .table-cell:nth-child(5) { flex: 1.2; } /* Division */
 .header-item:nth-child(6), .table-cell:nth-child(6) { flex: 1; } /* Action */
-.header-item:nth-child(7), .table-cell:nth-child(7) { flex: 0.6; } /* Action */
 
-.table-cell:nth-child(7) {
+.header-item:nth-child(6), .table-cell:nth-child(6) {
     justify-content: center; /* Center the SVG icon */
 }
 
@@ -204,7 +203,7 @@ main {
     gap: 20px;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100%; 
 }
 
 .view-icon {

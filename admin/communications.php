@@ -240,7 +240,6 @@
                         <div class="table-header">
                             <div class="header-item" role="columnheader">#</div>
                             <div class="header-item" role="columnheader">Subject Matter</div>
-                            <div class="header-item" role="columnheader">Source</div>
                             <div class="header-item" role="columnheader">Municipality/City</div>
                             <div class="header-item" role="columnheader">Date</div>
                             <div class="header-item" role="columnheader">Category</div>
@@ -253,7 +252,6 @@
                                 <div class="table-row" role="row">
                                     <div class="table-cell" role="cell">2025-00001</div>
                                     <div class="table-cell" role="cell">An Ordinance Regulating Public Health and Safety Standards in Municipal Facilities</div>
-                                    <div class="table-cell" role="cell">Provincial Governor's Office</div>
                                     <div class="table-cell" role="cell">Bayambang</div>
                                     <div class="table-cell" role="cell">09-08-2025</div>
                                     <div class="table-cell" role="cell">Posting</div>
@@ -273,7 +271,6 @@
                                 <div class="table-row" role="row">
                                     <div class="table-cell" role="cell">2025-00002</div>
                                     <div class="table-cell" role="cell">Ordinance on the Maintenance of Public Health and Safety in Municipal Premises</div>
-                                    <div class="table-cell" role="cell">Provincial Population Cooperative and Livelihood Development Office</div>
                                     <div class="table-cell" role="cell">Alaminos City</div>
                                     <div class="table-cell" role="cell">09-08-2025</div>
                                     <div class="table-cell" role="cell">Personnel Services</div>
@@ -293,7 +290,6 @@
                                 <div class="table-row" role="row">
                                     <div class="table-cell" role="cell">2025-00003</div>
                                     <div class="table-cell" role="cell">An Ordinance Ensuring Health and Safety Compliance in Municipal Buildings and Facilities</div>
-                                    <div class="table-cell" role="cell">An Ordinance Regulating Public Health and Safety Standards in Municipal Facilities</div>
                                     <div class="table-cell" role="cell">Bayambang</div>
                                     <div class="table-cell" role="cell">09-08-2025</div>
                                     <div class="table-cell" role="cell">Personnel Services</div>
@@ -313,7 +309,6 @@
                                 <div class="table-row" role="row">
                                     <div class="table-cell" role="cell">2025-00004</div>
                                     <div class="table-cell" role="cell">Ordinance Prescribing Sanitation and Safety Measures for All Municipal Establishments</div>
-                                    <div class="table-cell" role="cell">Provincial Governor's Office</div>
                                     <div class="table-cell" role="cell">Bayambang</div>
                                     <div class="table-cell" role="cell">09-08-2025</div>
                                     <div class="table-cell" role="cell">Personnel Services</div>
@@ -333,7 +328,6 @@
                                 <div class="table-row" role="row">
                                     <div class="table-cell" role="cell">2025-00005</div>
                                     <div class="table-cell" role="cell">An Ordinance Prescribing Traffic and Parking Rules Within the Municipality</div>
-                                    <div class="table-cell" role="cell">Provincial Governor's Office</div>
                                     <div class="table-cell" role="cell">Bayambang</div>
                                     <div class="table-cell" role="cell">09-08-2025</div>
                                     <div class="table-cell" role="cell">Personnel Services</div>
