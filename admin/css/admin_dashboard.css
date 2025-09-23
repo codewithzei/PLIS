@@ -529,6 +529,7 @@ main {
     width: 100%;
     border-collapse: collapse;
     min-width: 1170px; /* Prevent too much squeezing */
+    height: 512px;
 }
 
 .table-header {
@@ -544,7 +545,7 @@ main {
 }
 
 .table-body-scroll {
-    max-height: 584px; /* Set the maximum height for vertical scrolling */
+    max-height: 512px; /* Set the maximum height for vertical scrolling */
     overflow-y: auto; /* Enable vertical scrolling */
     overflow-x: hidden; /* Hide horizontal scrollbar if not needed */
     width: 100%;
@@ -582,7 +583,7 @@ main {
 .header-item:nth-child(5), .table-cell:nth-child(5) { flex: 1; } /* Division */
 .header-item:nth-child(6), .table-cell:nth-child(6) { flex: 0.4; } /* Action */
 
-.table-cell:nth-child(6) {
+.header-item:nth-child(6), .table-cell:nth-child(6) {
     justify-content: center; /* Center the SVG icon */
 }
 

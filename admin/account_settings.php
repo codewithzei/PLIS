@@ -213,8 +213,115 @@
         </header>
         <main class="main-content">
             <div class="user-profile-container">
-                
+                <div class="cover-photo-container">
+                    <div class="back-icon-container">
+                        <a href="settings.php" class="back-icon-link">
+                            <svg class="back-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.25 18.75L3.75 11.25M3.75 11.25L11.25 3.75M3.75 11.25H18.75C20.7391 11.25 22.6468 12.0402 24.0533 13.4467C25.4598 14.8532 26.25 16.7609 26.25 18.75C26.25 20.7391 25.4598 22.6468 24.0533 24.0533C22.6468 25.4598 20.7391 26.25 18.75 26.25H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>    
+                    </div>
+                </div>
+                <div class="user-info-container">
+                    <div class="user-info left">
+                        <div class="user-info profile">
+                            <img src="images/pfp.png" alt="Profile" class="user-profile">
+                        </div>
+                        <div class="user-info info">
+                            <div class="user-info name-role">
+                                <h2>Kitty Cat</h2>
+
+                                <div class="user-info role">
+                                    <h2>Admin</h2>
+                                </div>
+                            </div>
+
+                            <div class="user-info username">
+                                <p>@kitty.admin</p>
+                            </div>
+
+                            <div class="user-info status">
+                                <div class="user-info active-dot"></div>
+                                <p>Active</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="edit-profile-button-container">
+                        <div class="edit-button-container">
+                            <a href="#" class="edit-button">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.75 23.75H6.25C5.91848 23.75 5.60054 23.6183 5.36612 23.3839C5.1317 23.1495 5 22.8315 5 22.5V21.25C5 20.2554 5.39509 19.3016 6.09835 18.5983C6.80161 17.8951 7.75544 17.5 8.75 17.5H10M15 10C15 10.9946 14.6049 11.9484 13.9017 12.6517C13.1984 13.3549 12.2446 13.75 11.25 13.75C10.2554 13.75 9.30161 13.3549 8.59835 12.6517C7.89509 11.9484 7.5 10.9946 7.5 10C7.5 9.00544 7.89509 8.05161 8.59835 7.34835C9.30161 6.64509 10.2554 6.25 11.25 6.25C12.2446 6.25 13.1984 6.64509 13.9017 7.34835C14.6049 8.05161 15 9.00544 15 10ZM24.3012 11.9488C24.5228 12.1701 24.6986 12.433 24.8185 12.7223C24.9384 13.0117 25.0001 13.3218 25.0001 13.635C25.0001 13.9482 24.9384 14.2583 24.8185 14.5477C24.6986 14.837 24.5228 15.0999 24.3012 15.3212L16.715 22.9075L12.5 23.75L13.3425 19.535L20.93 11.9475C21.1514 11.7261 21.4141 11.5505 21.7034 11.4307C21.9926 11.3109 22.3026 11.2493 22.6156 11.2493C22.9287 11.2493 23.2387 11.3109 23.5279 11.4307C23.8171 11.5505 24.0799 11.7261 24.3012 11.9475V11.9488Z" stroke="white" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="round"/>
+                                </svg>
+                            Edit Profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <div class="user-details-container">
+                <div class="user-details">
+                    <div class="about">
+                        <h2>About</h2>
+                        <div class="content-scroll">
+                        <p>As a dedicated Administrative Officer at the Sangguniang Panlalawigan of Pangasinan, my role is to ensure the seamless operation of the provincial legislative process. I provide comprehensive support through the research and drafting of ordinances and resolutions, facilitate committee hearings and official sessions, and maintain efficient communication between the board members, government agencies, and the public we serve.</p>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <h2>Contact</h2>
+                        <div class="contact-details">
+                            <div class="phone-number">
+                                <div class="phone-icon-container">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18.4268 14.7677L17.1998 13.5417C16.8749 13.217 16.4342 13.0345 15.9748 13.0345C15.5154 13.0345 15.0748 13.217 14.7498 13.5417L14.1368 14.1547C13.976 14.3156 13.785 14.4433 13.5748 14.5304C13.3646 14.6175 13.1394 14.6623 12.9118 14.6623C12.6843 14.6623 12.459 14.6175 12.2488 14.5304C12.0386 14.4433 11.8477 14.3156 11.6868 14.1547L9.84883 12.3147C9.52397 11.9894 9.34149 11.5485 9.34149 11.0887C9.34149 10.629 9.52397 10.188 9.84883 9.86272L10.4608 9.24972C10.7857 8.92441 10.9682 8.48346 10.9682 8.02372C10.9682 7.56397 10.7857 7.12302 10.4608 6.79772L9.23683 5.57172C9.08665 5.39297 8.89917 5.24926 8.68755 5.15066C8.47593 5.05207 8.2453 5.00098 8.01183 5.00098C7.77837 5.00098 7.54774 5.05207 7.33612 5.15066C7.1245 5.24926 6.93702 5.39297 6.78683 5.57172C3.56383 8.77172 5.08483 12.4677 8.30583 15.6887C11.5258 18.9097 15.2198 20.4337 18.4258 17.2237C18.6055 17.0735 18.7499 16.8856 18.8491 16.6734C18.9482 16.4613 18.9996 16.2299 18.9996 15.9957C18.9996 15.7615 18.9482 15.5302 18.8491 15.318C18.7499 15.1058 18.6065 14.918 18.4268 14.7677Z" stroke="#FF5722" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>  
+                                </div>
+                                <div class="phone-number info">
+                                    <h2>Phone</h2>
+                                    <p>+63 912 345 6789</p>
+                                </div>
+                            </div>
+                            <div class="email-address">
+                                <div class="email-icon-container">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.5 5.5L11.393 11.536C11.5673 11.6692 11.7806 11.7413 12 11.7413C12.2194 11.7413 12.4327 11.6692 12.607 11.536L20.5 5.5M4 19H20C20.2652 19 20.5196 18.8946 20.7071 18.7071C20.8946 18.5196 21 18.2652 21 18V6C21 5.73478 20.8946 5.48043 20.7071 5.29289C20.5196 5.10536 20.2652 5 20 5H4C3.73478 5 3.48043 5.10536 3.29289 5.29289C3.10536 5.48043 3 5.73478 3 6V18C3 18.2652 3.10536 18.5196 3.29289 18.7071C3.48043 18.8946 3.73478 19 4 19Z" stroke="#228B22" stroke-width="1.5" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <div class="email-address info">
+                                    <h2>Email</h2>
+                                    <p>kittycat@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-cards">
+                <div class="year-joined-card">
+                        <div class="calendar-icon-container">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12.5H25M15 8.75V5M8.75 8.75V5M21.25 8.75V5M6.25 25H23.75C24.0815 25 24.3995 24.8683 24.6339 24.6339C24.8683 24.3995 25 24.0815 25 23.75V8.75C25 8.41848 24.8683 8.10054 24.6339 7.86612C24.3995 7.6317 24.0815 7.5 23.75 7.5H6.25C5.91848 7.5 5.60054 7.6317 5.36612 7.86612C5.1317 8.10054 5 8.41848 5 8.75V23.75C5 24.0815 5.1317 24.3995 5.36612 24.6339C5.60054 24.8683 5.91848 25 6.25 25ZM10 16.25H10.0125V16.2625H10V16.25ZM15 16.25H15.0125V16.2625H15V16.25ZM20 16.25H20.0125V16.2625H20V16.25ZM10 21.25H10.0125V21.2625H10V21.25ZM15 21.25H15.0125V21.2625H15V21.25ZM20 21.25H20.0125V21.2625H20V21.25Z" stroke="#444444" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="year-joined info">
+                            <h2>2025</h2>
+                            <p>Joined September</p>
+                        </div>
+                </div>
+
+                <div class="documents-routed-card">
+                        <div class="document-icon-container">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.375 17.8125V14.5312C24.375 13.4124 23.9305 12.3393 23.1394 11.5481C22.3482 10.757 21.2751 10.3125 20.1562 10.3125H18.2812C17.9083 10.3125 17.5506 10.1643 17.2869 9.90062C17.0232 9.6369 16.875 9.27921 16.875 8.90625V7.03125C16.875 5.91237 16.4305 4.83931 15.6394 4.04814C14.8482 3.25697 13.7751 2.8125 12.6562 2.8125H10.3125M10.3125 18.75H19.6875M10.3125 22.5H15M13.125 2.8125H7.03125C6.255 2.8125 5.625 3.4425 5.625 4.21875V25.7812C5.625 26.5575 6.255 27.1875 7.03125 27.1875H22.9688C23.745 27.1875 24.375 26.5575 24.375 25.7812V14.0625C24.375 11.0788 23.1897 8.21733 21.08 6.10755C18.9702 3.99776 16.1087 2.8125 13.125 2.8125Z" stroke="#0033A1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="documents-routed info">
+                            <h2>908</h2>
+                            <p>Documents Routed</p>
+                        </div>
+                </div>
+            </div>
+        </div>
         </main>
     </div>
 </body>

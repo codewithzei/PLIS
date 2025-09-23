@@ -214,7 +214,7 @@
         <main class="main-content">
             <div class="account-settings">
                 <h2>Account Settings</h2>
-                <p>Update your personal information </p>
+                <p>Update your personal information</p>
 
                 <div class="manage-button-container">
                     <a href="account_settings.php" class="manage-button">
@@ -228,7 +228,7 @@
             
             <div class="user-management">
                 <h2>User Manangement</h2>
-                <p>Add, edit, or deactivate system users</p>
+                <p>Manage and organize user accounts</p>
 
                 <div class="manage-button-container">
                     <a href="user_management.php" class="manage-button">

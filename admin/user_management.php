@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DASHBOARD</title>
     <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/archived_documents.css">
+    <link rel="stylesheet" href="css/user_management.css">
     <link rel="icon" href="images/logo.png" type="image/png">
 </head>
 <body>
@@ -39,7 +39,7 @@
                     
                     <!-- Document Management Section -->
                     <div class="nav-section">
-                    <div class="nav-label active">DOCUMENT MANAGEMENT</div>
+                    <div class="nav-label">DOCUMENT MANAGEMENT</div>
                     <ul>
                         <li class="nav-item">
                             <a href="drafts.php">
@@ -73,7 +73,7 @@
                                 Filed Documents
                             </a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a href="archived_documents.php">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M13.5 8H4M4 6V19C4 19.2652 4.10536 19.5196 4.29289 19.7071C4.48043 19.8946 4.73478 20 5 20H19C19.2652 20 19.5196 19.8946 19.7071 19.7071C19.8946 19.5196 20 19.2652 20 19V9C20 8.73478 19.8946 8.48043 19.7071 8.29289C19.5196 8.10536 19.2652 8 19 8H13.968C13.8214 7.99995 13.6767 7.96767 13.5439 7.90546C13.4112 7.84325 13.2938 7.75262 13.2 7.64L11.3 5.36C11.2062 5.24738 11.0888 5.15675 10.9561 5.09454C10.8233 5.03233 10.6786 5.00005 10.532 5H5C4.73478 5 4.48043 5.10536 4.29289 5.29289C4.10536 5.48043 4 5.73478 4 6Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -124,9 +124,9 @@
                     
                     <!-- System Section -->
                     <div class="nav-section">
-                    <div class="nav-label">SYSTEM</div>
+                    <div class="nav-label active">SYSTEM</div>
                     <ul>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a href="settings.php">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M9.59372 3.94C9.68372 3.398 10.1537 3 10.7037 3H13.2967C13.8467 3 14.3167 3.398 14.4067 3.94L14.6197 5.221C14.6827 5.595 14.9327 5.907 15.2647 6.091C15.3387 6.131 15.4117 6.174 15.4847 6.218C15.8097 6.414 16.2047 6.475 16.5597 6.342L17.7767 5.886C18.0261 5.79221 18.3007 5.78998 18.5516 5.87971C18.8025 5.96945 19.0134 6.14531 19.1467 6.376L20.4427 8.623C20.5758 8.8537 20.6227 9.12413 20.5751 9.38617C20.5275 9.6482 20.3884 9.88485 20.1827 10.054L19.1797 10.881C18.8867 11.122 18.7417 11.494 18.7497 11.873C18.7511 11.958 18.7511 12.043 18.7497 12.128C18.7417 12.506 18.8867 12.878 19.1797 13.119L20.1837 13.946C20.6077 14.296 20.7177 14.901 20.4437 15.376L19.1457 17.623C19.0126 17.8536 18.8019 18.0296 18.5512 18.1195C18.3005 18.2094 18.0261 18.2074 17.7767 18.114L16.5597 17.658C16.2047 17.525 15.8097 17.586 15.4837 17.782C15.4112 17.8261 15.3379 17.8688 15.2637 17.91C14.9327 18.093 14.6827 18.405 14.6197 18.779L14.4067 20.06C14.3167 20.603 13.8467 21 13.2967 21H10.7027C10.1527 21 9.68372 20.602 9.59272 20.06L9.37972 18.779C9.31772 18.405 9.06772 18.093 8.73572 17.909C8.66157 17.8681 8.58822 17.8258 8.51572 17.782C8.19072 17.586 7.79572 17.525 7.43972 17.658L6.22272 18.114C5.97345 18.2075 5.69908 18.2096 5.44842 18.1199C5.19775 18.0302 4.98703 17.8545 4.85372 17.624L3.55672 15.377C3.42366 15.1463 3.37676 14.8759 3.42437 14.6138C3.47198 14.3518 3.61101 14.1152 3.81672 13.946L4.82072 13.119C5.11272 12.879 5.25772 12.506 5.25072 12.128C5.24915 12.043 5.24915 11.958 5.25072 11.873C5.25772 11.493 5.11272 11.122 4.82072 10.881L3.81672 10.054C3.61126 9.88489 3.47239 9.64843 3.42479 9.38662C3.37719 9.12481 3.42393 8.8546 3.55672 8.624L4.85372 6.377C4.9869 6.14614 5.19773 5.97006 5.44863 5.88014C5.69953 5.79021 5.97421 5.79229 6.22372 5.886L7.43972 6.342C7.79572 6.475 8.19072 6.414 8.51572 6.218C8.58772 6.174 8.66172 6.132 8.73572 6.09C9.06772 5.907 9.31772 5.595 9.37972 5.221L9.59372 3.94Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -208,15 +208,15 @@
                             </div>
                         </div>
                     </div> 
-                </div> 
+                </div>     
             </div>
         </header>
         <main class="main-content">
             <div class="document-updates">
                 <div class="title-and-search-container">
                     <div class="title-and-search-container title">
-                        <h2>Archived Documents</h2>
-                        <p>Historical archive of approved ordinances and resolutions</p>
+                        <h2>User Management</h2>
+                        <p>Add, edit, or deactivate system users</p>
                     </div>
                     <div class="search-sort-upload-group"> 
                         <div class="search">
@@ -234,12 +234,12 @@
                                 </svg>
                             </div>
                         </div>
-                        <div class="upload-button-container">
+                        <div class="add-button-container">
                             <a href="#">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 5V14M7 14H5C4.73478 14 4.48043 14.1054 4.29289 14.2929C4.10536 14.4804 4 14.7348 4 15V19C4 19.2652 4.10536 19.5196 4.29289 19.7071C4.48043 19.8946 4.73478 20 5 20H19C19.2652 20 19.5196 19.8946 19.7071 19.7071C19.8946 19.5196 20 19.2652 20 19V15C20 14.7348 19.8946 14.4804 19.7071 14.2929C19.5196 14.1054 19.2652 14 19 14H17M8 9L12 4L16 9M17 17H17.01" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <svg class="add-button" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 12h14m-7 7V5"/>
                                 </svg>
-                            Upload Now
+                            Add User
                             </a>
                         </div>
                     </div>
@@ -247,173 +247,283 @@
                 <div class="table-container">
                     <div class="table-header-fixed">
                         <div class="table-header">
-                            <div class="header-item" role="columnheader">Approved No.</div>
-                            <div class="header-item" role="columnheader">Subject Matter</div>
-                            <div class="header-item" role="columnheader">Document Type</div>
-                            <div class="header-item" role="columnheader">Authors/Sponsors</div>
-                            <div class="header-item" role="columnheader">Actions</div>
+                            <div class="header-item" role="columnheader">User</div>
+                            <div class="header-item" role="columnheader">Contact</div>
+                            <div class="header-item" role="columnheader">Division</div>
+                            <div class="header-item" role="columnheader">Account Status</div>
+                            <div class="header-item" role="columnheader">Action</div>
                         </div> 
                     </div> 
                     <div class="table-body-scroll">
                         <div class="table">
                             <div class="data-cell">
                                 <div class="table-row" role="row">
-                                    <div class="table-cell" role="cell">PRN-2024-00001</div>
-                                    <div class="table-cell" role="cell">An Ordinance Regulating Public Health and Safety Standards in Municipal Facilities</div>
-                                    <div class="table-cell" role="cell">Provincial Ordinance</div>
                                     <div class="table-cell" role="cell">
-                                        <div class="authors-group">
-                                            <p class="authors-sponsors">Zyron Manangan, Jerwayne Domdom, Archie Sarmiento</p>
-                                            <p class="co-authors-sponsors">Co-Authors/Sponsors: Princess Jhoana Macatantan</p>
+                                        <div class="user-container">
+                                            <div class="user-info pfp">
+                                                <img src="images/pfp.png" alt="Profile" class="profile-picture">
+                                            </div>
+                                            <div class="user-info info">
+                                                <h2>Kitty Cat</h2>
+                                                <p>@kitty.admin</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="table-cell" role="cell">
-                                        <div class="action-icons">
-                                            <svg class="view-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M21 12C21 13.2 16.97 18 12 18C7.03 18 3 13.2 3 12C3 10.8 7.03 6 12 6C16.97 6 21 10.8 21 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                                <path d="M15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                            </svg>
+                                        <div class="contact-info-container">
+                                            <h2 class="phone">+63 912 345 6789</h2>
+                                            <h2 class="email">kittycat@gmail.com</h2>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell" role="cell"><span class="role-admin">Admin</span></div>
+                                    <div class="table-cell" role="cell"><span class="status-active">Active</span></div>
+                                    <div class="table-cell" role="cell">
                                             <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             </svg>
-                                            <svg class="download-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 13V4M7 14H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-2m-1-5-4 5-4-5m9 8h.01"/>
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="print-icon">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 0 1-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0 0 21 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 0 0-1.913-.247M6.34 18H5.25A2.25 2.25 0 0 1 3 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 0 1 1.913-.247m10.5 0a48.536 48.536 0 0 0-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5Zm-3 0h.008v.008H15V10.5Z" />
-                                            </svg>
-                                            <svg class="delete-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z"/>
-                                            </svg>
-                                        </div>
                                     </div>
                                 </div>
                         
                                 <div class="table-row" role="row">
-                                    <div class="table-cell" role="cell">PRN-2024-00002</div>
-                                    <div class="table-cell" role="cell">Ordinance on the Maintenance of Public Health and Safety in Municipal Premises</div>
-                                    <div class="table-cell" role="cell">Provincial Appropriation Ordinance</div>
                                     <div class="table-cell" role="cell">
-                                        <div class="authors-group">
-                                            <p class="authors-sponsors">Zyron Manangan, Jerwayne Domdom, Archie Sarmiento</p>
-                                            <p class="co-authors-sponsors">Co-Authors/Sponsors: Princess Jhoana Macatantan</p>
+                                        <div class="user-container">
+                                            <div class="user-info pfp">
+                                                <img src="images/pfp.png" alt="Profile" class="profile-picture">
+                                            </div>
+                                            <div class="user-info info">
+                                                <h2>Kitty Cat</h2>
+                                                <p>@kitty.admin</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="table-cell" role="cell">
-                                        <div class="action-icons">
-                                            <svg class="view-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M21 12C21 13.2 16.97 18 12 18C7.03 18 3 13.2 3 12C3 10.8 7.03 6 12 6C16.97 6 21 10.8 21 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                                <path d="M15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                            </svg>
-                                            <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <div class="contact-info-container">
+                                            <h2 class="phone">+63 912 345 6789</h2>
+                                            <h2 class="email">kittycat@gmail.com</h2>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell" role="cell"><span class="role-spsec">SP Secretary</span></div>
+                                    <div class="table-cell" role="cell"><span class="status-active">Active</span></div>
+                                    <div class="table-cell" role="cell">
+                                        <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             </svg>
-                                            <svg class="download-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 13V4M7 14H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-2m-1-5-4 5-4-5m9 8h.01"/>
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="print-icon">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 0 1-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0 0 21 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 0 0-1.913-.247M6.34 18H5.25A2.25 2.25 0 0 1 3 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 0 1 1.913-.247m10.5 0a48.536 48.536 0 0 0-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5Zm-3 0h.008v.008H15V10.5Z" />
-                                            </svg>
-                                            <svg class="delete-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z"/>
-                                            </svg>
-                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="table-row" role="row">
-                                    <div class="table-cell" role="cell">PRN-2024-00003</div>
-                                    <div class="table-cell" role="cell">An Ordinance Ensuring Health and Safety Compliance in Municipal Buildings and Facilities</div>
-                                    <div class="table-cell" role="cell">Provincial Ordinance</div>
                                     <div class="table-cell" role="cell">
-                                        <div class="authors-group">
-                                            <p class="authors-sponsors">Zyron Manangan, Jerwayne Domdom, Archie Sarmiento</p>
-                                            <p class="co-authors-sponsors">Co-Authors/Sponsors: Princess Jhoana Macatantan</p>
+                                        <div class="user-container">
+                                            <div class="user-info pfp">
+                                                <img src="images/pfp.png" alt="Profile" class="profile-picture">
+                                            </div>
+                                            <div class="user-info info">
+                                                <h2>Kitty Cat</h2>
+                                                <p>@kitty.admin</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="table-cell" role="cell">
-                                        <div class="action-icons">
-                                            <svg class="view-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M21 12C21 13.2 16.97 18 12 18C7.03 18 3 13.2 3 12C3 10.8 7.03 6 12 6C16.97 6 21 10.8 21 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                                <path d="M15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                            </svg>
-                                            <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <div class="contact-info-container">
+                                            <h2 class="phone">+63 912 345 6789</h2>
+                                            <h2 class="email">kittycat@gmail.com</h2>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell" role="cell"><span class="role-plenary">Plenary</span></div>
+                                    <div class="table-cell" role="cell"><span class="status-blocked">Blocked</span></div>
+                                    <div class="table-cell" role="cell">
+                                        <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             </svg>
-                                            <svg class="download-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 13V4M7 14H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-2m-1-5-4 5-4-5m9 8h.01"/>
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="print-icon">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 0 1-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0 0 21 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 0 0-1.913-.247M6.34 18H5.25A2.25 2.25 0 0 1 3 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 0 1 1.913-.247m10.5 0a48.536 48.536 0 0 0-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5Zm-3 0h.008v.008H15V10.5Z" />
-                                            </svg>
-                                            <svg class="delete-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z"/>
-                                            </svg>
-                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="table-row" role="row">
-                                    <div class="table-cell" role="cell">PRN-2024-00004</div>
-                                    <div class="table-cell" role="cell">Ordinance Prescribing Sanitation and Safety Measures for All Municipal Establishments</div>
-                                    <div class="table-cell" role="cell">Provincial Ordinance</div>
                                     <div class="table-cell" role="cell">
-                                        <div class="authors-group">
-                                            <p class="authors-sponsors">Zyron Manangan, Jerwayne Domdom, Archie Sarmiento</p>
-                                            <p class="co-authors-sponsors">Co-Authors/Sponsors: Princess Jhoana Macatantan</p>
+                                        <div class="user-container">
+                                            <div class="user-info pfp">
+                                                <img src="images/pfp.png" alt="Profile" class="profile-picture">
+                                            </div>
+                                            <div class="user-info info">
+                                                <h2>Kitty Cat</h2>
+                                                <p>@kitty.admin</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="table-cell" role="cell">
-                                        <div class="action-icons">
-                                            <svg class="view-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M21 12C21 13.2 16.97 18 12 18C7.03 18 3 13.2 3 12C3 10.8 7.03 6 12 6C16.97 6 21 10.8 21 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                                <path d="M15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                            </svg>
-                                            <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <div class="contact-info-container">
+                                            <h2 class="phone">+63 912 345 6789</h2>
+                                            <h2 class="email">kittycat@gmail.com</h2>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell" role="cell"><span class="role-committee">Committee</span></div>
+                                    <div class="table-cell" role="cell"><span class="status-deactivated">Deactivated</span></div>
+                                    <div class="table-cell" role="cell">
+                                        <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             </svg>
-                                            <svg class="download-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 13V4M7 14H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-2m-1-5-4 5-4-5m9 8h.01"/>
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="print-icon">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 0 1-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0 0 21 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 0 0-1.913-.247M6.34 18H5.25A2.25 2.25 0 0 1 3 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 0 1 1.913-.247m10.5 0a48.536 48.536 0 0 0-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5Zm-3 0h.008v.008H15V10.5Z" />
-                                            </svg>
-                                            <svg class="delete-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z"/>
-                                            </svg>
-                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="table-row" role="row">
-                                    <div class="table-cell" role="cell">PRN-2024-00004</div>
-                                    <div class="table-cell" role="cell">An Ordinance Prescribing Traffic and Parking Rules Within the Municipality</div>
-                                    <div class="table-cell" role="cell">Provincial Ordinance</div>
                                     <div class="table-cell" role="cell">
-                                        <div class="authors-group">
-                                            <p class="authors-sponsors">Zyron Manangan, Jerwayne Domdom, Archie Sarmiento</p>
-                                            <p class="co-authors-sponsors">Co-Authors/Sponsors: Princess Jhoana Macatantan</p>
+                                        <div class="user-container">
+                                            <div class="user-info pfp">
+                                                <img src="images/pfp.png" alt="Profile" class="profile-picture">
+                                            </div>
+                                            <div class="user-info info">
+                                                <h2>Kitty Cat</h2>
+                                                <p>@kitty.admin</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="table-cell" role="cell">
-                                        <div class="action-icons">
-                                            <svg class="view-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M21 12C21 13.2 16.97 18 12 18C7.03 18 3 13.2 3 12C3 10.8 7.03 6 12 6C16.97 6 21 10.8 21 12Z" stroke="currentColor" stroke-width="1.5"/>
-                                                <path d="M15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12Z" stroke="currentColor" stroke-width="1.5"/>
+                                        <div class="contact-info-container">
+                                            <h2 class="phone">+63 912 345 6789</h2>
+                                            <h2 class="email">kittycat@gmail.com</h2>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell" role="cell"><span class="role-client">Client</span></div>
+                                    <div class="table-cell" role="cell"><span class="status-active">Active</span></div>
+                                    <div class="table-cell" role="cell">
+                                        <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             </svg>
+                                    </div>
+                                </div>
+
+                                <div class="table-row" role="row">
+                                    <div class="table-cell" role="cell">
+                                        <div class="user-container">
+                                            <div class="user-info pfp">
+                                                <img src="images/pfp.png" alt="Profile" class="profile-picture">
+                                            </div>
+                                            <div class="user-info info">
+                                                <h2>Kitty Cat</h2>
+                                                <p>@kitty.admin</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell" role="cell">
+                                        <div class="contact-info-container">
+                                            <h2 class="phone">+63 912 345 6789</h2>
+                                            <h2 class="email">kittycat@gmail.com</h2>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell" role="cell"><span class="role-admin">Admin</span></div>
+                                    <div class="table-cell" role="cell"><span class="status-active">Active</span></div>
+                                    <div class="table-cell" role="cell">
                                             <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                             </svg>
-                                            <svg class="download-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 13V4M7 14H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-2m-1-5-4 5-4-5m9 8h.01"/>
-                                            </svg>
-                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="print-icon">
-                                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 0 1-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0 0 21 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 0 0-1.913-.247M6.34 18H5.25A2.25 2.25 0 0 1 3 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 0 1 1.913-.247m10.5 0a48.536 48.536 0 0 0-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5Zm-3 0h.008v.008H15V10.5Z" />
-                                            </svg>
-                                            <svg class="delete-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z"/>
-                                            </svg>
+                                    </div>
+                                </div>
+                        
+                                <div class="table-row" role="row">
+                                    <div class="table-cell" role="cell">
+                                        <div class="user-container">
+                                            <div class="user-info pfp">
+                                                <img src="images/pfp.png" alt="Profile" class="profile-picture">
+                                            </div>
+                                            <div class="user-info info">
+                                                <h2>Kitty Cat</h2>
+                                                <p>@kitty.admin</p>
+                                            </div>
                                         </div>
+                                    </div>
+                                    <div class="table-cell" role="cell">
+                                        <div class="contact-info-container">
+                                            <h2 class="phone">+63 912 345 6789</h2>
+                                            <h2 class="email">kittycat@gmail.com</h2>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell" role="cell"><span class="role-spsec">SP Secretary</span></div>
+                                    <div class="table-cell" role="cell"><span class="status-active">Active</span></div>
+                                    <div class="table-cell" role="cell">
+                                        <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                    </div>
+                                </div>
+
+                                <div class="table-row" role="row">
+                                    <div class="table-cell" role="cell">
+                                        <div class="user-container">
+                                            <div class="user-info pfp">
+                                                <img src="images/pfp.png" alt="Profile" class="profile-picture">
+                                            </div>
+                                            <div class="user-info info">
+                                                <h2>Kitty Cat</h2>
+                                                <p>@kitty.admin</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell" role="cell">
+                                        <div class="contact-info-container">
+                                            <h2 class="phone">+63 912 345 6789</h2>
+                                            <h2 class="email">kittycat@gmail.com</h2>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell" role="cell"><span class="role-plenary">Plenary</span></div>
+                                    <div class="table-cell" role="cell"><span class="status-blocked">Blocked</span></div>
+                                    <div class="table-cell" role="cell">
+                                        <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                    </div>
+                                </div>
+
+                                <div class="table-row" role="row">
+                                    <div class="table-cell" role="cell">
+                                        <div class="user-container">
+                                            <div class="user-info pfp">
+                                                <img src="images/pfp.png" alt="Profile" class="profile-picture">
+                                            </div>
+                                            <div class="user-info info">
+                                                <h2>Kitty Cat</h2>
+                                                <p>@kitty.admin</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell" role="cell">
+                                        <div class="contact-info-container">
+                                            <h2 class="phone">+63 912 345 6789</h2>
+                                            <h2 class="email">kittycat@gmail.com</h2>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell" role="cell"><span class="role-committee">Committee</span></div>
+                                    <div class="table-cell" role="cell"><span class="status-deactivated">Deactivated</span></div>
+                                    <div class="table-cell" role="cell">
+                                        <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                    </div>
+                                </div>
+
+                                <div class="table-row" role="row">
+                                    <div class="table-cell" role="cell">
+                                        <div class="user-container">
+                                            <div class="user-info pfp">
+                                                <img src="images/pfp.png" alt="Profile" class="profile-picture">
+                                            </div>
+                                            <div class="user-info info">
+                                                <h2>Kitty Cat</h2>
+                                                <p>@kitty.admin</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell" role="cell">
+                                        <div class="contact-info-container">
+                                            <h2 class="phone">+63 912 345 6789</h2>
+                                            <h2 class="email">kittycat@gmail.com</h2>
+                                        </div>
+                                    </div>
+                                    <div class="table-cell" role="cell"><span class="role-client">Client</span></div>
+                                    <div class="table-cell" role="cell"><span class="status-active">Active</span></div>
+                                    <div class="table-cell" role="cell">
+                                        <svg class="edit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.304 4.84412L17.156 7.69612M7 7.00012H4C3.73478 7.00012 3.48043 7.10547 3.29289 7.29301C3.10536 7.48055 3 7.7349 3 8.00012V18.0001C3 18.2653 3.10536 18.5197 3.29289 18.7072C3.48043 18.8948 3.73478 19.0001 4 19.0001H15C15.2652 19.0001 15.5196 18.8948 15.7071 18.7072C15.8946 18.5197 16 18.2653 16 18.0001V13.5001M18.409 3.59012C18.5964 3.77742 18.745 3.99981 18.8464 4.24457C18.9478 4.48933 19 4.75168 19 5.01662C19 5.28156 18.9478 5.5439 18.8464 5.78866C18.745 6.03343 18.5964 6.25581 18.409 6.44312L11.565 13.2871L8 14.0001L8.713 10.4351L15.557 3.59112C15.7442 3.40365 15.9664 3.25493 16.2111 3.15346C16.4558 3.05199 16.7181 2.99976 16.983 2.99976C17.2479 2.99976 17.5102 3.05199 17.7549 3.15346C17.9996 3.25493 18.2218 3.40365 18.409 3.59112V3.59012Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
                                     </div>
                                 </div>
                             </div>

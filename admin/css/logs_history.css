@@ -141,6 +141,7 @@ main {
     width: 100%;
     border-collapse: collapse;
     min-width: 1170px; /* Prevent too much squeezing */
+    height: 512px;
 }
 
 .table-header {

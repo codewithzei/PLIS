@@ -2,14 +2,13 @@ main {
     flex: 1;
     width: 100%;
     min-height: calc(100vh - 100px);
-    height: 100vh;
+    height: 951px;
     overflow-y: auto;
     position: relative;
     padding: 0;
     z-index: 0;
     padding: 0;
 }
-
 
 .document-updates {
     width: 1235px;
@@ -53,21 +52,26 @@ main {
     justify-content: space-between;
     flex-direction: row;
 }
-        
-.title-and-search-container.search-and-sort .search-form {
+
+.search-sort-upload-group {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    gap: 20px; /* Add some space between elements */
+}
+
+.search-sort-upload-group .search-form {
     position: relative;
     display: flex;
     align-items: center;
 }
-        
-.title-and-search-container.search-and-sort .search-icon {
+.search-sort-upload-group .search-icon {
     position: absolute;
     left: 15px;
     color: #888888;
     z-index: 2;
 }
         
-.title-and-search-container.search-and-sort .search-bar {
+.search-sort-upload-group .search-bar {
     width: 250px;
     height: 40px;
     padding: 10px 15px 10px 45px;
@@ -78,16 +82,16 @@ main {
     font-weight: 500;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     transition: all 0.3s ease;
-    margin: 5px 30px 5px 0;
+    margin: 5px 0; /* Remove right margin here, gap will handle spacing */
 }
         
-.title-and-search-container.search-and-sort .search-bar:focus {
+.search-sort-upload-group .search-bar:focus {
     outline: none;
     border-color: var(--primary-color);
     box-shadow: 0 2px 10px rgba(66, 133, 244, 0.2);
 }
 
-.title-and-search-container.search-and-sort .search-bar::placeholder {
+.search-sort-upload-group .search-bar::placeholder {
     color: #888888;
 }
 
@@ -126,6 +130,42 @@ main {
 
 .sort-container:focus svg {
     color: var(--primary-color);
+}
+
+.add-button-container {
+    width: 100%;
+    height: 40px;
+    background-color: var(--button-color);
+    border-radius: var(--buttton-border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, color 0.3s;
+    padding: 10px 40px;
+}
+
+.add-button-container a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+}
+
+.add-button-container a svg {
+    flex-shrink: 0; /* Prevents the SVG from shrinking */
+}
+
+.add-button-container:hover {
+    transform: scale(1.02);
+    background-color: #0D7AD9;
+}
+
+.add-button-container:hover a {
+    color: #ffffff;
 }
 
 .table-container {
@@ -189,38 +229,156 @@ main {
     font-weight: 500;
 }
 
-.header-item:nth-child(1), .table-cell:nth-child(1) { flex: 1.6; } /* Subject Matter */
-.header-item:nth-child(2), .table-cell:nth-child(2) { flex: 1.4; } /* Document Type */
-.header-item:nth-child(3), .table-cell:nth-child(3) { flex: 1.2; } /* Status */
-.header-item:nth-child(4), .table-cell:nth-child(4) { flex: 1.1; } /* Division */
-.header-item:nth-child(5), .table-cell:nth-child(5) { flex: 0.7; } /* Action */
+.header-item:nth-child(1), .table-cell:nth-child(1) { flex: 2.5; }
+.header-item:nth-child(2), .table-cell:nth-child(2) { flex: 2; }
+.header-item:nth-child(3), .table-cell:nth-child(3) { flex: 1.2; }
+.header-item:nth-child(4), .table-cell:nth-child(4) { flex: 1; }
+.header-item:nth-child(5), .table-cell:nth-child(5) { flex: 0.5; } 
 
 .header-item:nth-child(5), .table-cell:nth-child(5) {
     justify-content: center; /* Center the SVG icon */
 }
 
-.action-icons {
+.user-container {
     display: flex;
-    gap: 20px;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    width: 100%;
+    gap: 15px;
 }
 
-.archive-icon {
-    color: #FFC107;
-    flex-shrink: 0;
-    cursor: pointer;
+.user-info.pfp {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-info.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+}
+
+.user-info.info h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-default);
+    margin: 0;
+}
+
+.user-info.info p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #666666;
+    margin: 0;
+}
+
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+}
+
+.contact-info-container .phone {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-default);
+    margin: 0;
+}
+
+.contact-info-container .email {
+    font-size: 14px;
+    font-weight: 500;
+    color: #666666;
+    margin: 0;
+}
+
+.role-admin {
+    background-color: rgb(32, 137, 230, 0.1);
+    color: #2089E6;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 1px solid #2089E6;
+}
+
+.role-spsec {
+    background-color: rgb(15, 82, 186, 0.1);
+    color: #0F52BA;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 1px solid #0F52BA;
+}
+
+.role-plenary {
+    background-color: rgb(123, 106, 230, 0.1);
+    color: #7b6ae6;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 1px solid #7b6ae6;
+}
+
+.role-committee {
+    background-color: rgb(106, 90, 205, 0.1) ;
+    color: #663399;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 1px solid #883399;
+}
+
+.role-client {
+    background-color: rgb(191, 83, 212, 0.1) ;
+    color: #bf53d4;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 1px solid #bf53d4;
+}
+
+.status-active {
+    background-color: rgb(34, 139, 34, 0.2);
+    color: #228B22;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 1px solid #228B22;
+}
+
+.status-blocked {
+    background-color: rgb(244, 67, 54, 0.2);
+    color: #F44336;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 1px solid #F44336;
+}
+
+.status-deactivated {
+    background-color: rgb(158, 158, 158, 0.3);
+    color: #666666;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 1px solid #666666;
 }
 
 .edit-icon {
     color: #034BE7;
     flex-shrink: 0;
     cursor: pointer;
-}
-
-.archive-icon:hover {
-    color: #daa508;
 }
 
 .edit-icon:hover {
@@ -285,4 +443,3 @@ main {
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
-
