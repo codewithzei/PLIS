@@ -594,6 +594,7 @@ main {
     padding: 4px 8px;
     border-radius: 20px;
     font-size: 16px;
+    border: 1px solid #607D8B;
 }
 
 .status-approved {
@@ -602,6 +603,7 @@ main {
     padding: 4px 8px;
     border-radius: 20px;
     font-size: 16px;
+    border: 1px solid #228B22;
 }
 
 .status-referred {
@@ -610,6 +612,7 @@ main {
     padding: 4px 8px;
     border-radius: 20px;
     font-size: 16px;
+    border: 1px solid #3F51B5;
 }
 
 .status-filed {
@@ -618,6 +621,7 @@ main {
     padding: 4px 8px;
     border-radius: 20px;
     font-size: 16px;
+    border: 1px solid #034BE7;
 }
 
 .status-on-hold {
@@ -626,6 +630,7 @@ main {
     padding: 4px 8px;
     border-radius: 20px;
     font-size: 16px;
+    border: 1px solid #FFC107;
 }
 
 .table-cell svg {
