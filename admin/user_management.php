@@ -179,14 +179,6 @@
                     </div>
                 </div>
                 <div class="header-functions right">
-                    <div class="search">
-                        <form action="#" method="GET" class="search-form">
-                            <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M17.5 17.5L14.5833 14.5833M14.1667 8.33333C14.1667 9.09938 14.0158 9.85792 13.7226 10.5657C13.4295 11.2734 12.9998 11.9164 12.4581 12.4581C11.9164 12.9998 11.2734 13.4295 10.5657 13.7226C9.85792 14.0158 9.09938 14.1667 8.33333 14.1667C7.56729 14.1667 6.80875 14.0158 6.10101 13.7226C5.39328 13.4295 4.75022 12.9998 4.20854 12.4581C3.66687 11.9164 3.23719 11.2734 2.94404 10.5657C2.65088 9.85792 2.5 9.09938 2.5 8.33333C2.5 6.78624 3.11458 5.30251 4.20854 4.20854C5.30251 3.11458 6.78624 2.5 8.33333 2.5C9.88043 2.5 11.3642 3.11458 12.4581 4.20854C13.5521 5.30251 14.1667 6.78624 14.1667 8.33333Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-                            </svg>
-                            <input type="text" name="search" placeholder="Search..." class="search-bar">
-                        </form>
-                    </div>
                     <div class="function-icons">
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.9997 26.25C12.0705 26.2494 9.25712 25.1064 7.15751 23.0639C5.0579 21.0215 3.8377 18.2407 3.7563 15.3126C3.6749 12.3846 4.73873 9.54027 6.72162 7.38432C8.70452 5.22837 11.4501 3.93082 14.3747 3.7675V3.75C13.9322 4.9575 13.7497 6.13875 13.7497 7.5C13.7497 10.4837 14.935 13.3452 17.0448 15.455C19.1545 17.5647 22.016 18.75 24.9997 18.75C25.2985 18.75 25.3172 18.7725 25.6097 18.75C24.8334 20.9435 23.3963 22.8425 21.4963 24.1857C19.5962 25.5288 17.3266 26.25 14.9997 26.25Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -239,8 +231,17 @@
                                 <svg class="add-button" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 12h14m-7 7V5"/>
                                 </svg>
-                            Add User
+                                Add User
                             </a>
+                        </div>
+                        <div class="back">
+                            <div class="back-icon-container">
+                                <a href="settings.php">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="back-icon">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 15 3 9m0 0 6-6M3 9h12a6 6 0 0 1 0 12h-3" />
+                                </svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

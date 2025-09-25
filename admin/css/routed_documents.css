@@ -80,26 +80,28 @@ main {
     height: 40px;
     background-color: var(--button-color);
     border-radius: var(--buttton-border-radius);
+    transition: transform 0.3s, background-color 0.3s;
+    overflow: hidden; /* Important para hindi lumabas yung anchor */
+    padding: 10px 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 0.3s, color 0.3s;
-    padding: 10px 40px;
 }
 
 .route-button-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     text-decoration: none;
     color: #ffffff;
     font-size: 16px;
     font-weight: 500;
     transition: color 0.3s;
-    display: flex;
-    align-items: center;
-    gap: 10px; /* Space between icon and text */
 }
 
 .route-button-container a svg {
-    flex-shrink: 0; /* Prevents the SVG from shrinking */
+    flex-shrink: 0;
 }
 
 .route-button-container:hover {

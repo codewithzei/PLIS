@@ -137,26 +137,29 @@ main {
     height: 40px;
     background-color: var(--button-color);
     border-radius: var(--buttton-border-radius);
+    transition: transform 0.3s, background-color 0.3s;
+    overflow: hidden; /* Important para hindi lumabas yung anchor */
+    padding: 10px 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 0.3s, color 0.3s;
-    padding: 10px 40px;
 }
 
 .add-button-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
     text-decoration: none;
     color: #ffffff;
     font-size: 16px;
     font-weight: 500;
     transition: color 0.3s;
-    display: flex;
-    align-items: center;
-    gap: 10px; /* Space between icon and text */
 }
 
 .add-button-container a svg {
-    flex-shrink: 0; /* Prevents the SVG from shrinking */
+    flex-shrink: 0;
 }
 
 .add-button-container:hover {
@@ -166,6 +169,41 @@ main {
 
 .add-button-container:hover a {
     color: #ffffff;
+}
+
+.back-icon-container {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #7B7F88;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, color 0.3s;
+    cursor: pointer;
+    margin: 5px 0 5px 0;
+}
+
+.back-icon-container svg {
+    height: 24px;
+    width: 24px;
+    color: #888888;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.back-icon-container:hover svg {
+    color: var(--primary-color);
+    transform: scale(1.1);
+}
+
+.back-icon-container:focus {
+    transform: scale(1.1);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.back-icon-container:focus svg {
+    color: var(--primary-color);
 }
 
 .table-container {
