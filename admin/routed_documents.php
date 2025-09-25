@@ -386,7 +386,7 @@
                     <span class="close-modal">&times;</span>
                 </div>
                 <div class="modal-body">
-                    <form id="originalDocumentForm" action="submit_original_document.php" method="POST" enctype="multipart/form-data">
+                    <form id="originalDocumentForm" action="#" method="POST" enctype="multipart/form-data">
                         <div class="form-group">
                             <span class="categorization">Document Information</span>
                         </div>

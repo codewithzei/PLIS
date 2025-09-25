@@ -566,6 +566,108 @@
                 </div>
             </div>
         </main>
+
+        <div id="addUserModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Add User</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <form id="originalDocumentForm" action="#" method="POST" enctype="multipart/form-data">
+                        <div class="profile-upload-section">
+                            <div class="profile-upload-container" id="profileUploadArea">
+                                <span class="profile-avatar-initial" id="profileInitial"></span>
+                                <img src="images/default.png" alt="Profile Picture" id="profilePreview" style="display:none;">
+                                <div class="profile-upload-overlay">
+                                    <label for="profile_picture">Change Photo</label>
+                                </div>
+                                <input type="file" id="profile_picture" name="profile_picture" accept="image/jpeg,image/png,image/gif">
+                            </div>
+                            <div class="upload-text">Click to upload profile picture</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="middleName">Middle Name *</label>
+                            <input type="text" id="middleName" name="middleName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="middleName">Last Name *</label>
+                            <input type="text" id="middleName" name="middleName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="extensiomName">Extension Name</label>
+                            <input type="text" id="extensiomName" name="extensiomName">
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phoneNumber">Phone Number *</label>
+                                <input type="text" id="phoneNumber" name="phoneNumber" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="emailAddress">Email Address *</label>
+                                <input type="text" id="emailAddress" name="emailAddress" required>
+                            </div>
+                        </div> 
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="sex">Sex *</label>
+                                <div class="dropdown">
+                                    <button class="dropdown-button">
+                                        <span class="button-text">Sex</span>
+                                        <span class="arrow">▼</span>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        <div class="dropdown-item" data-value="male">Male</div>
+                                        <div class="dropdown-item" data-value="female">Female</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="role">Role *</label>
+                                <div class="dropdown">
+                                    <button class="dropdown-button">
+                                        <span class="button-text">Select User Role</span>
+                                        <span class="arrow">▼</span>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        <div class="dropdown-item" data-value="admin">Admin</div>
+                                        <div class="dropdown-item" data-value="user">Client</div>
+                                        <div class="dropdown-item" data-value="moderator">Committee</div>
+                                        <div class="dropdown-item" data-value="admin">Plenary</div>
+                                        <div class="dropdown-item" data-value="user">SP Secretary</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="password">Password *</label>
+                                <input type="password" id="password" name="password" required minlength="8">
+                                <small>Minimum 8 characters</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="confirmPassword">Confirm Password *</label>
+                                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                                <small id="passwordMatch"></small>
+                            </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-cancel">Cancel</button>
+                            <button type="submit" class="btn btn-add">Add User</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
